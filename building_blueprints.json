@@ -1,0 +1,5198 @@
+{
+    "buildings": [{
+        "id": "main_floor",
+        "classType": "DummyBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_DUMMY",
+        "description": "$BLD_DESC_DUMMY",
+        "renderTarget": ["dummyBuilding"],
+        "deployTime": 3600,
+        "tags": [],
+        "unlockSegment": 0,
+        "upgrades": [{
+            "coins": 20
+        }],
+        "prices": [{
+            "coins": 10
+        }],
+        "configs": {}
+    }, {
+        "id": "mining_station",
+        "classType": "MiningBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_MINING",
+        "description": "$BLD_DESC_MINING",
+        "deployTime": 60,
+        "tags": ["RESOURCE", "ELECTRICITYDEPENDING"],
+        "unlockSegment": 0,
+        "region": "ui-main-mining-building-icon",
+        "upgrades": [{
+            "config": {
+                "rps": 3000,
+                "capacity": 40000
+            }
+        }, {
+            "price": {
+                "resources": {
+                    "coal": 20
+                }
+            },
+            "config": {
+                "rps": 4000,
+                "capacity": 45000
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "resources": {
+                    "copper": 20
+                }
+            },
+            "config": {
+                "rps": 5000,
+                "capacity": 50000
+            },
+            "upgradeDuration": 900
+        }, {
+            "price": {
+                "resources": {
+                    "circuits": 1
+                }
+            },
+            "config": {
+                "rps": 6000,
+                "capacity": 55000
+            },
+            "upgradeDuration": 3600
+        }, {
+            "price": {
+                "resources": {
+                    "copper-wire": 200,
+                    "circuits": 1
+                }
+            },
+            "config": {
+                "rps": 8000,
+                "capacity": 70000
+            },
+            "upgradeDuration": 7200
+        }, {
+            "price": {
+                "resources": {
+                    "copper-amber-wire": 100,
+                    "circuits": 15
+                }
+            },
+            "config": {
+                "rps": 12000,
+                "capacity": 90000
+            },
+            "upgradeDuration": 14400
+        }, {
+            "price": {
+                "resources": {
+                    "emerald-zap-thing": 500,
+                    "gold-bar": 1200
+                }
+            },
+            "config": {
+                "rps": 15000,
+                "capacity": 120000
+            },
+            "upgradeDuration": 28800
+        }, {
+            "price": {
+                "resources": {
+                    "copper-amber-wire": 250,
+                    "accumulator": 15,
+                    "flask-sulfuric-acid": 20
+                }
+            },
+            "config": {
+                "rps": 17000,
+                "electricityUsage": 1,
+                "capacity": 150000
+            },
+            "upgradeDuration": 28800
+        }, {
+            "price": {
+                "resources": {
+                    "enriched-uranium": 1,
+                    "titanium-gear": 10,
+                    "steel-plate": 100
+                }
+            },
+            "config": {
+                "rps": 20000,
+                "electricityUsage": 2,
+                "capacity": 170000
+            },
+            "upgradeDuration": 28800
+        }],
+        "prices": [{
+            "coins": 1
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_MINING",
+            "duration": 900,
+            "price": 5,
+            "multiplier": 2.5
+        },
+        "config": {}
+    }, {
+        "id": "chemistry_mining_station",
+        "classType": "ChemistryMiningBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_CHEMICAL_MINING",
+        "description": "$BLD_DESC_CHEMICAL_MINING",
+        "deployTime": 1800,
+        "tags": ["RESOURCE"],
+        "unlockSegment": 13,
+        "region": "ui-main-mine-chemistry-building-icon",
+        "upgrades": [{
+            "config": {
+                "mul": 1000
+            }
+        }, {
+            "config": {
+                "mul": 1000.4
+            },
+            "price": {
+                "resources": {
+                    "flask-water": 20
+                }
+            },
+            "upgradeDuration": 600
+        }, {
+            "config": {
+                "mul": 3000
+            },
+            "price": {
+                "resources": {
+                    "saronite": 3,
+                    "flask-clear-oil": 5
+                }
+            },
+            "upgradeDuration": 1200
+        }, {
+            "config": {
+                "mul": 4000
+            },
+            "price": {
+                "resources": {
+                    "thorium": 3
+                }
+            },
+            "upgradeDuration": 1800
+        }],
+        "prices": [{
+            "coins": 1
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_CHEMICAL_MINING",
+            "duration": 10800,
+            "price": 10,
+            "multiplier": 2.5
+        },
+        "configs": {
+            "chemicals": [{
+                "product": "silicon",
+                "amount": "1",
+                "name": "silicon",
+                "title": "Silicon",
+                "coin": "1000",
+                "unlockSegment": "13",
+                "time": "600",
+                "miningSpeed": 5
+            }, {
+                "product": "sulfur",
+                "amount": "1",
+                "name": "sulfur",
+                "title": "Sulfur",
+                "coin": "1500",
+                "unlockSegment": "61",
+                "time": "600",
+                "miningSpeed": 5
+            }, {
+                "product": "sodium",
+                "amount": "1",
+                "name": "sodium",
+                "title": "Sodium",
+                "coin": "2000",
+                "unlockSegment": "72",
+                "time": "600",
+                "miningSpeed": 5
+            }, {
+                "product": "nitrogen",
+                "amount": "1",
+                "name": "nitrogen",
+                "title": "[]Nitrogen",
+                "coin": "20000",
+                "unlockSegment": "96",
+                "time": "600",
+                "miningSpeed": 3
+            }]
+        }
+    }, {
+        "id": "oil-building",
+        "classType": "OilBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_OIL_BUILDING",
+        "description": "$BLD_DESC_OIL_BUILDING",
+        "deployTime": 1800,
+        "tags": ["RESOURCE", "ELECTRICITYDEPENDING"],
+        "unlockSegment": 72,
+        "region": "ui-main-oil-mining-building-icon",
+        "upgrades": [{
+            "config": {
+                "volume": 100000,
+                "electricityUsage": 1,
+                "speed": 1.2
+            }
+        }, {
+            "config": {
+                "volume": 150000,
+                "electricityUsage": 2,
+                "speed": 1.3
+            },
+            "price": {
+                "coins": 1000000
+            },
+            "upgradeDuration": 1800
+        }, {
+            "config": {
+                "volume": 200000,
+                "electricityUsage": 3,
+                "speed": 1.5
+            },
+            "price": {
+                "coins": 2000000
+            },
+            "upgradeDuration": 2700
+        }],
+        "prices": [{
+            "coins": 5
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "nuclearReactor-building",
+        "classType": "NuclearReactorBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_NUCLEAR_REACTOR_BUILDING",
+        "description": "$BLD_DESC_NUCLEAR_REACTOR_BUILDING",
+        "deployTime": 43200,
+        "availableCount": 1,
+        "tags": [],
+        "unlockSegment": 84,
+        "renderTarget": ["nuclearReactorBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "0": 800,
+                "1": 1200,
+                "2": 2000,
+                "3": 3000
+            }
+        }, {
+            "config": {
+                "0": 600,
+                "1": 900,
+                "2": 1500,
+                "3": 2250
+            },
+            "price": {
+                "coins": 50000000
+            },
+            "upgradeDuration": 18000
+        }, {
+            "config": {
+                "0": 400,
+                "1": 600,
+                "2": 1000,
+                "3": 1500
+            },
+            "price": {
+                "coins": 100000000
+            },
+            "upgradeDuration": 36000
+        }],
+        "prices": [{
+            "coins": 2000000
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "wind-building",
+        "classType": "WindBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_WIND_BUILDING",
+        "description": "$BLD_DESC_WIND_BUILDING",
+        "deployTime": 1800,
+        "availableCount": 1,
+        "tags": [],
+        "unlockSegment": 72,
+        "renderTarget": ["windBuilding"],
+        "region": "ui-main-wind-electrik-building-icon",
+        "upgrades": [{
+            "config": {
+                "volume": 10
+            }
+        }, {
+            "config": {
+                "volume": 20
+            },
+            "price": {
+                "coins": 500000
+            },
+            "upgradeDuration": 1200
+        }, {
+            "config": {
+                "volume": 30
+            },
+            "price": {
+                "coins": 1000000
+            },
+            "upgradeDuration": 5700
+        }, {
+            "config": {
+                "volume": 40
+            },
+            "price": {
+                "coins": 1500000
+            },
+            "upgradeDuration": 10200
+        }, {
+            "config": {
+                "volume": 50
+            },
+            "price": {
+                "coins": 2000000
+            },
+            "upgradeDuration": 14700
+        }, {
+            "config": {
+                "volume": 60
+            },
+            "price": {
+                "coins": 2500000
+            },
+            "upgradeDuration": 19200
+        }, {
+            "config": {
+                "volume": 70
+            },
+            "price": {
+                "coins": 3000000
+            },
+            "upgradeDuration": 23700
+        }, {
+            "config": {
+                "volume": 80
+            },
+            "price": {
+                "coins": 3500000
+            },
+            "upgradeDuration": 28200
+        }, {
+            "config": {
+                "volume": 90
+            },
+            "price": {
+                "coins": 4000000
+            },
+            "upgradeDuration": 32700
+        }, {
+            "config": {
+                "volume": 100
+            },
+            "price": {
+                "coins": 4500000
+            },
+            "upgradeDuration": 37200
+        }, {
+            "config": {
+                "volume": 110
+            },
+            "price": {
+                "coins": 5000000
+            },
+            "upgradeDuration": 41700
+        }, {
+            "config": {
+                "volume": 120
+            },
+            "price": {
+                "coins": 5500000
+            },
+            "upgradeDuration": 46200
+        }, {
+            "config": {
+                "volume": 130
+            },
+            "price": {
+                "coins": 6000000
+            },
+            "upgradeDuration": 50700
+        }, {
+            "config": {
+                "volume": 140
+            },
+            "price": {
+                "coins": 6500000
+            },
+            "upgradeDuration": 55200
+        }, {
+            "config": {
+                "volume": 150
+            },
+            "price": {
+                "coins": 7000000
+            },
+            "upgradeDuration": 59700
+        }, {
+            "config": {
+                "volume": 160
+            },
+            "price": {
+                "coins": 7500000
+            },
+            "upgradeDuration": 64200
+        }, {
+            "config": {
+                "volume": 170
+            },
+            "price": {
+                "coins": 8000000
+            },
+            "upgradeDuration": 68700
+        }, {
+            "config": {
+                "volume": 180
+            },
+            "price": {
+                "coins": 8500000
+            },
+            "upgradeDuration": 73200
+        }, {
+            "config": {
+                "volume": 190
+            },
+            "price": {
+                "coins": 9000000
+            },
+            "upgradeDuration": 77700
+        }, {
+            "config": {
+                "volume": 200
+            },
+            "price": {
+                "coins": 10000000
+            },
+            "upgradeDuration": 86400
+        }],
+        "prices": [{
+            "coins": 1
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "solar-building",
+        "classType": "SolarBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_SOLAR_BUILDING",
+        "description": "$BLD_DESC_SOLAR_BUILDING",
+        "deployTime": 1800,
+        "tags": [],
+        "availableCount": 1,
+        "unlockSegment": 72,
+        "renderTarget": ["solarBuilding"],
+        "region": "ui-main-solar-electrik-building-icon",
+        "upgrades": [{
+            "config": {
+                "volume": 10
+            }
+        }, {
+            "config": {
+                "volume": 20
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 10
+                }
+            },
+            "upgradeDuration": 600
+        }, {
+            "config": {
+                "volume": 30
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 20
+                }
+            },
+            "upgradeDuration": 1200
+        }, {
+            "config": {
+                "volume": 40
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 50,
+                    "arcanite": 1
+                }
+            },
+            "upgradeDuration": 1800
+        }, {
+            "config": {
+                "volume": 50
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 85,
+                    "anaptanium": 1
+                }
+            },
+            "upgradeDuration": 2100
+        }, {
+            "config": {
+                "volume": 60
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 115,
+                    "thorium": 1
+                }
+            },
+            "upgradeDuration": 2400
+        }, {
+            "config": {
+                "volume": 70
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 145,
+                    "saronite": 1
+                }
+            },
+            "upgradeDuration": 2700
+        }, {
+            "config": {
+                "volume": 80
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 175,
+                    "trillium": 1
+                }
+            },
+            "upgradeDuration": 3000
+        }, {
+            "config": {
+                "volume": 90
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 210,
+                    "red-beryl": 1
+                }
+            },
+            "upgradeDuration": 3300
+        }, {
+            "config": {
+                "volume": 100
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 240,
+                    "moonstone": 1
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "volume": 110
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 270,
+                    "arcanite": 2
+                }
+            },
+            "upgradeDuration": 3900
+        }, {
+            "config": {
+                "volume": 120
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 300,
+                    "anaptanium": 2
+                }
+            },
+            "upgradeDuration": 4200
+        }, {
+            "config": {
+                "volume": 130
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 330,
+                    "thorium": 2
+                }
+            },
+            "upgradeDuration": 4500
+        }, {
+            "config": {
+                "volume": 140
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 365,
+                    "saronite": 2
+                }
+            },
+            "upgradeDuration": 4800
+        }, {
+            "config": {
+                "volume": 150
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 395,
+                    "trillium": 2
+                }
+            },
+            "upgradeDuration": 5100
+        }, {
+            "config": {
+                "volume": 160
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 425,
+                    "red-beryl": 2
+                }
+            },
+            "upgradeDuration": 5400
+        }, {
+            "config": {
+                "volume": 170
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 455,
+                    "moonstone": 2
+                }
+            },
+            "upgradeDuration": 5700
+        }, {
+            "config": {
+                "volume": 180
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 488,
+                    "arcanite": 3
+                }
+            },
+            "upgradeDuration": 6000
+        }, {
+            "config": {
+                "volume": 190
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 520,
+                    "anaptanium": 3
+                }
+            },
+            "upgradeDuration": 6300
+        }, {
+            "config": {
+                "volume": 200
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 600,
+                    "thorium": 3
+                }
+            },
+            "upgradeDuration": 6900
+        }, {
+            "config": {
+                "volume": 210
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 680,
+                    "saronite": 3
+                }
+            },
+            "upgradeDuration": 8100
+        }, {
+            "config": {
+                "volume": 220
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 760,
+                    "red-beryl": 3
+                }
+            },
+            "upgradeDuration": 9300
+        }, {
+            "config": {
+                "volume": 230
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 840,
+                    "arcanite": 3
+                }
+            },
+            "upgradeDuration": 10500
+        }, {
+            "config": {
+                "volume": 240
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 920,
+                    "anaptanium": 3
+                }
+            },
+            "upgradeDuration": 11700
+        }, {
+            "config": {
+                "volume": 250
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1000,
+                    "moonstone": 4
+                }
+            },
+            "upgradeDuration": 12900
+        }, {
+            "config": {
+                "volume": 260
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1100,
+                    "thorium": 4
+                }
+            },
+            "upgradeDuration": 14100
+        }, {
+            "config": {
+                "volume": 270
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1200,
+                    "trillium": 4
+                }
+            },
+            "upgradeDuration": 15300
+        }, {
+            "config": {
+                "volume": 280
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1300,
+                    "saronite": 4
+                }
+            },
+            "upgradeDuration": 16500
+        }, {
+            "config": {
+                "volume": 290
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1400,
+                    "red-beryl": 4
+                }
+            },
+            "upgradeDuration": 17700
+        }, {
+            "config": {
+                "volume": 300
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": 1500,
+                    "arcanite": 4
+                }
+            },
+            "upgradeDuration": 18900
+        }],
+        "prices": [{
+            "resources": {
+                "solar-panel": 20
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "expedition_building",
+        "classType": "CaveExpeditionBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_EXPEDITION",
+        "description": "$BLD_DESC_EXPEDITION",
+        "deployTime": 3600,
+        "tags": ["EXPEDITION"],
+        "unlockSegment": 0,
+        "region": "ui-main-expedition-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "coins": 20
+        }],
+        "configs": {
+            "expeditionPrice": {
+                "coins": 50
+            }
+        }
+    }, {
+        "id": "portal_expedition_building",
+        "classType": "PortalExpeditionBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_EXPEDITION",
+        "description": "$BLD_DESC_EXPEDITION",
+        "deployTime": 3600,
+        "tags": ["PORTAL_EXPEDITION"],
+        "unlockSegment": 0,
+        "region": "ui-main-expedition-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "coins": 20000
+        }],
+        "configs": {
+            "expeditionPrice": {
+                "coins": 50
+            }
+        }
+    }, {
+        "id": "uran_expedition_building",
+        "classType": "UranExpeditionBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_CAMBRIAN_EXPEDITION",
+        "description": "$BLD_DESC_CAMBRIAN_EXPEDITION",
+        "deployTime": 3600,
+        "tags": ["URAN_EXPEDITION"],
+        "unlockSegment": 85,
+        "region": "ui-main-expedition-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "coins": 200000
+        }],
+        "configs": {
+            "expeditionPrice": {
+                "coins": 50
+            }
+        }
+    }, {
+        "id": "iron_expedition_building",
+        "classType": "IronExpeditionBuildingScript",
+        "type": 1,
+        "name": "$CAVE_IRON_EXPEDITION_TITLE",
+        "description": "$CAVE_IRON_EXPEDITION_INTRODUCTION_DESC",
+        "deployTime": 3600,
+        "tags": ["IRON_EXPEDITION"],
+        "unlockSegment": 113,
+        "region": "ui-main-expedition-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "coins": 200000
+        }],
+        "configs": {
+            "expeditionPrice": {
+                "coins": 50
+            }
+        }
+    }, {
+        "id": "smelting_building",
+        "classType": "SmeltingBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_SMELTING",
+        "description": "$BLD_DESC_SMELTING",
+        "renderTarget": ["smeltingBuilding"],
+        "deployTime": 5,
+        "tags": ["recipeBuilding"],
+        "availableCount": 2,
+        "unlockSegment": 0,
+        "region": "ui-main-smelting-building-icon",
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "slots": 4
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "coins": 100
+        }, {
+            "coins": 15000
+        }, {
+            "resources": {
+                "copper-bar": 5000
+            }
+        }, {
+            "resources": {
+                "glass": 1700
+            }
+        }, {
+            "resources": {
+                "aluminium-bar": 10000
+            }
+        }, {
+            "resources": {
+                "steel-bar": 4500
+            }
+        }, {
+            "resources": {
+                "gold-bar": 4200
+            }
+        }, {
+            "resources": {
+                "silver-bar": 5000
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_SMELTING",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "product": "copper-bar",
+                "amount": "100",
+                "name": "copper-bar",
+                "title": "Copperbar",
+                "coin": "100",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "copper": "5"
+                }
+            }, {
+                "product": "iron-bar",
+                "amount": "100",
+                "name": "iron-bar",
+                "title": "Ironbar",
+                "coin": "200",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "iron": "5"
+                }
+            }, {
+                "product": "aluminium-bar",
+                "amount": "100",
+                "name": "aluminium-bar",
+                "title": "Aluminiumbar",
+                "coin": "500",
+                "unlockSegment": "25",
+                "time": "1",
+                "ingredients": {
+                    "aluminium": "5"
+                }
+            }, {
+                "product": "glass",
+                "amount": "100",
+                "name": "glass",
+                "title": "Glass",
+                "coin": "400",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "2"
+                }
+            }, {
+                "product": "steel-bar",
+                "amount": "100",
+                "name": "steel-bar",
+                "title": "Steelbar",
+                "coin": "700",
+                "unlockSegment": "37",
+                "time": "1",
+                "ingredients": {
+                    "iron-bar": "1",
+                    "graphite-rod": "1"
+                }
+            }, {
+                "product": "silver-bar",
+                "amount": "100",
+                "name": "silver-bar",
+                "title": "Silverbar",
+                "coin": "800",
+                "unlockSegment": "37",
+                "time": "1",
+                "ingredients": {
+                    "silver": "5"
+                }
+            }, {
+                "product": "gold-bar",
+                "amount": "100",
+                "name": "gold-bar",
+                "title": "Goldbar",
+                "coin": "200000",
+                "unlockSegment": "49",
+                "time": "1",
+                "ingredients": {
+                    "gold": "5"
+                }
+            }, {
+                "product": "coal",
+                "amount": "500",
+                "name": "coal",
+                "title": "Coal",
+                "coin": "5000",
+                "unlockSegment": "40",
+                "time": "1",
+                "ingredients": {
+                    "wood": "1"
+                }
+            }, {
+                "amount": "100",
+                "name": "steel-plate",
+                "title": "SteelPlate",
+                "coin": "250000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "steel-bar": "5"
+                }
+            }, {
+                "amount": "10",
+                "name": "steel-pipe",
+                "title": "SteelPipe",
+                "coin": "255000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "steel-plate": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "titanium-bar",
+                "title": "Titaniumbar",
+                "coin": "300000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "titanium": "5"
+                }
+            }, {
+                "amount": "10",
+                "name": "magnetite-bar",
+                "title": "Magnetitebar",
+                "coin": "350000",
+                "unlockSegment": "109",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-ore": "5"
+                }
+            }, {
+                "amount": "10",
+                "name": "luteium-bar",
+                "title": "[]Lutetiumbar",
+                "coin": "355000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "luteium-jew": "5"
+                }
+            }, {
+                "amount": "100",
+                "name": "water-barell",
+                "title": "[]Asteroidwater",
+                "coin": "372000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "zap-thing": "20",
+                    "asteroid-ice": "10"
+                }
+            }]
+        }
+    }, {
+        "id": "green_house_building",
+        "classType": "GreenHouseBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_GREENHOUSE",
+        "description": "$BLD_DESC_GREENHOUSE",
+        "renderTarget": ["greenHouseBuilding", "greenhouseBuilding1"],
+        "deployTime": 3600,
+        "tags": ["recipeBuilding"],
+        "availableCount": 2,
+        "unlockSegment": 13,
+        "addBuildingUnlockSegments": [108],
+        "region": "ui-main-greenhouse-building-icon",
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "price": {
+                "resources": {
+                    "moonstone": 10
+                }
+            },
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 1800
+        }, {
+            "price": {
+                "resources": {
+                    "moonstone": 20
+                }
+            },
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 3600
+        }, {
+            "price": {
+                "resources": {
+                    "moonstone": 40
+                }
+            },
+            "config": {
+                "slots": 4
+            },
+            "upgradeDuration": 10800
+        }],
+        "prices": [{
+            "resources": {
+                "moonstone": 4
+            }
+        }, {
+            "resources": {
+                "moonstone": 10
+            }
+        }, {
+            "resources": {
+                "moonstone": 20
+            }
+        }, {
+            "resources": {
+                "moonstone": 40
+            }
+        }, {
+            "resources": {
+                "saronite": 45
+            }
+        }, {
+            "resources": {
+                "anaptanium": 50
+            }
+        }, {
+            "resources": {
+                "thorium": 55
+            }
+        }, {
+            "resources": {
+                "trillium": 60
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_GREENHOUSE",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "product": "wood",
+                "extraProducts": {},
+                "amount": "100",
+                "name": "wood",
+                "title": "Tree",
+                "coin": "1000",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "water-barell": "10",
+                    "seed": "1"
+                }
+            }, {
+                "product": "liana",
+                "extraProducts": {},
+                "amount": "10",
+                "name": "liana",
+                "title": "Liana",
+                "coin": "300000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "water-barell": "20",
+                    "liana-seed": "1"
+                }
+            }, {
+                "product": "grape",
+                "extraProducts": {},
+                "amount": "20",
+                "name": "grape",
+                "title": "Grape",
+                "coin": "350000",
+                "unlockSegment": "62",
+                "time": "1",
+                "ingredients": {
+                    "water-barell": "15",
+                    "grape-seed": "1"
+                }
+            }, {
+                "product": "pine",
+                "extraProducts": {},
+                "amount": "10",
+                "name": "pine",
+                "title": "pine",
+                "coin": "500000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "water-barell": "10",
+                    "pine-seed": "1"
+                }
+            }],
+            "sellables": [{
+                "name": "seed",
+                "price": 20
+            }, {
+                "name": "grape-seed",
+                "unlockSegment": "62",
+                "price": 1200
+            }, {
+                "name": "liana-seed",
+                "unlockSegment": "61",
+                "price": 1000
+            }]
+        }
+    }, {
+        "id": "chemistry_building",
+        "classType": "ChemistryBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_CHEMISTRY",
+        "description": "$BLD_DESC_CHEMISTRY",
+        "renderTarget": ["chemistryBuilding"],
+        "deployTime": 3600,
+        "tags": ["recipeBuilding"],
+        "availableCount": 2,
+        "unlockSegment": 13,
+        "addBuildingUnlockSegments": [85],
+        "region": "ui-main-chemistry-building-icon",
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 18000
+        }, {
+            "config": {
+                "slots": 4
+            },
+            "upgradeDuration": 28800
+        }],
+        "prices": [{
+            "coins": 3000
+        }, {
+            "coins": 10000
+        }, {
+            "resources": {
+                "platinum": 5000
+            }
+        }, {
+            "resources": {
+                "trillium": 10
+            }
+        }, {
+            "resources": {
+                "anaptanium": 20
+            }
+        }, {
+            "resources": {
+                "arcanite": 40
+            }
+        }, {
+            "resources": {
+                "thorium": 45
+            }
+        }, {
+            "resources": {
+                "red-beryl": 50
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_CHEMISTRY",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "product": "flask-water",
+                "amount": "10",
+                "name": "flask-water",
+                "title": "Cleanwater",
+                "coin": "800",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "water-barell": "1",
+                    "flask": "1"
+                }
+            }, {
+                "product": "hydrogen",
+                "extraProducts": {
+                    "oxygen": "10"
+                },
+                "amount": "20",
+                "name": "hydrogen",
+                "title": "Waterelectrolysis",
+                "coin": "1000",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "flask-water": "1"
+                }
+            }, {
+                "product": "rubber",
+                "amount": "20",
+                "name": "rubber",
+                "title": "Rubber",
+                "coin": "200000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "liana": "1"
+                }
+            }, {
+                "product": "flask-sulfuric-acid",
+                "amount": "10",
+                "name": "flask-sulfuric-acid",
+                "title": "Sulfuricacidinflask",
+                "coin": "250000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "flask-water": "1",
+                    "sulfur": "2"
+                }
+            }, {
+                "product": "aluminium-bottle-ethanol",
+                "amount": "10",
+                "name": "aluminium-bottle-ethanol",
+                "title": "Ethanolinaluminiumbottle",
+                "coin": "300000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "grape": "2",
+                    "aluminium-bottle": "1"
+                }
+            }, {
+                "product": "flask-clear-oil",
+                "amount": "10",
+                "name": "flask-clear-oil",
+                "title": "ClearOil",
+                "coin": "350000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "flask": "1",
+                    "hydrogen": "10",
+                    "oil-barell": "10"
+                }
+            }, {
+                "product": "plastic",
+                "amount": "10",
+                "name": "plastic",
+                "title": "Plastic",
+                "coin": "400000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "flask-clear-oil": "1",
+                    "coal": "50",
+                    "emerald-zap-thing": "1"
+                }
+            }, {
+                "product": "titanium",
+                "amount": "50",
+                "name": "titanium",
+                "title": "Titanium",
+                "coin": "450000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "titanium-ore": "100",
+                    "flask-sulfuric-acid": "1"
+                }
+            }, {
+                "product": "diethyl-alcohol",
+                "amount": "10",
+                "name": "diethyl-alcohol",
+                "title": "Diethylether",
+                "coin": "500000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bottle-ethanol": "1",
+                    "flask-sulfuric-acid": "1"
+                }
+            }, {
+                "product": "gunpowder",
+                "amount": "200",
+                "name": "gunpowder",
+                "title": "Gunpowder",
+                "coin": "550000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "wood": "2",
+                    "flask-sulfuric-acid": "2",
+                    "diethyl-alcohol": "1"
+                }
+            }, {
+                "product": "liquid-nitrogen",
+                "amount": "40",
+                "name": "liquid-nitrogen",
+                "title": "[]liquidnitrogen",
+                "coin": "555000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "compressor": "1",
+                    "nitrogen": "10",
+                    "aluminium-bottle": "1"
+                }
+            }, {
+                "product": "magnetite-ore",
+                "amount": "10",
+                "name": "magnetite-ore",
+                "title": "Magnetiteore",
+                "coin": "560000",
+                "unlockSegment": "109",
+                "time": "1",
+                "ingredients": {
+                    "iron-bar": "10",
+                    "oxygen": "5",
+                    "emerald-zap-thing": "5"
+                }
+            }, {
+                "product": "he-3",
+                "amount": "10",
+                "name": "he-3",
+                "title": "Helium3improved",
+                "coin": "565000",
+                "unlockSegment": "109",
+                "time": "1",
+                "ingredients": {
+                    "compressor": "1",
+                    "helium3": "100",
+                    "aluminium-bottle": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "toxic-bomb",
+                "title": "ToxicBomb",
+                "coin": "570000",
+                "unlockSegment": "109",
+                "time": "1",
+                "ingredients": {
+                    "flask-sulfuric-acid": "10"
+                }
+            }, {
+                "product": "flask-hcl",
+                "amount": "40",
+                "name": "flask-hcl",
+                "title": "[]hydrochloricacid",
+                "coin": "575000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "salt-crystals": "20",
+                    "flask-sulfuric-acid": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "luteium-jew",
+                "title": "[]lutetium",
+                "coin": "580000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "luteium": "20",
+                    "flask-sulfuric-acid": "1"
+                }
+            }, {
+                "product": "chlorine",
+                "extraProducts": {
+                    "sodium": "1"
+                },
+                "amount": "1",
+                "name": "chlorine",
+                "title": "Saltelectrolysis",
+                "coin": "585000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "salt-crystals": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "zeolit",
+                "title": "[]zeolit",
+                "coin": "590000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "sodium": "10",
+                    "aluminium-bar": "2",
+                    "flask-water": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "seawater",
+                "title": "[]Seawater",
+                "coin": "600000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "salt-crystals": "10",
+                    "flask-water": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "flora-defender",
+                "title": "[]Floradefender",
+                "coin": "610000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "chlorine": "6",
+                    "flask-clear-oil": "1",
+                    "gas-cylinder": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "pine-seed",
+                "title": "[]pineseed",
+                "coin": "620000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "flora-defender": "1",
+                    "dna-flora-capsule": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "primordial-soup",
+                "title": "primordialSoup",
+                "coin": "630000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "coal": "100",
+                    "diethyl-alcohol": "1",
+                    "flask-water": "1"
+                }
+            }]
+        }
+    }, {
+        "id": "uranium_enrichment_building",
+        "classType": "UraniumEnrichmentBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_URANIUM_ENRICHMENT",
+        "description": "$BLD_DESC_URANIUM_ENRICHMENT",
+        "renderTarget": ["uraniumEnrichmentBuilding"],
+        "deployTime": 18000,
+        "tags": ["recipeBuilding"],
+        "availableCount": 1,
+        "unlockSegment": 84,
+        "region": "ui-main-uran-building-icon",
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "price": {
+                "resources": {
+                    "trillium": 10
+                }
+            },
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 1800
+        }, {
+            "price": {
+                "resources": {
+                    "trillium": 20
+                }
+            },
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "coins": 1000000
+        }, {
+            "resources": {
+                "trillium": 10
+            }
+        }, {
+            "resources": {
+                "trillium": 20
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_CHEMISTRY",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "product": "enriched-uranium",
+                "amount": "1",
+                "name": "enriched-uranium",
+                "title": "UranumRod",
+                "coin": "100000",
+                "unlockSegment": "84",
+                "time": "120",
+                "ingredients": {
+                    "sodium": "10",
+                    "uranium": "20"
+                }
+            }]
+        }
+    }, {
+        "id": "bot_building",
+        "classType": "BotBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_DRONE",
+        "description": "$BLD_DESC_DRONE",
+        "renderTarget": ["botBuilding"],
+        "deployTime": 3600,
+        "tags": [],
+        "availableCount": 1,
+        "unlockSegment": 12,
+        "region": "ui-main-drons-building-icon",
+        "upgrades": [{
+            "config": {
+                "bots": 1
+            }
+        }, {
+            "price": {
+                "crystals": 20
+            },
+            "config": {
+                "bots": 2
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 150
+            },
+            "config": {
+                "bots": 3
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 400
+            },
+            "config": {
+                "bots": 4
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 400
+            },
+            "config": {
+                "bots": 5
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 400
+            },
+            "config": {
+                "bots": 6
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 400
+            },
+            "config": {
+                "bots": 7
+            },
+            "upgradeDuration": 60
+        }, {
+            "price": {
+                "crystals": 400
+            },
+            "config": {
+                "bots": 8
+            },
+            "upgradeDuration": 60
+        }],
+        "prices": [{
+            "coins": 2000
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_DRONE",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "trade_building",
+        "classType": "TradeBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_TRADE",
+        "description": "$BLD_DESC_TRADE",
+        "renderTarget": ["tradeBuilding"],
+        "deployTime": 3600,
+        "tags": [],
+        "availableCount": 1,
+        "unlockSegment": 53,
+        "region": "ui-main-trading-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "resources": {
+                "portal": 1
+            }
+        }],
+        "configs": {
+            "open_price": {
+                "emerald-jew": 100
+            }
+        }
+    }, {
+        "id": "water_collector_building",
+        "classType": "WaterCollectorBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_WATER",
+        "description": "$BLD_DESC_WATER",
+        "renderTarget": ["waterCollectorBuilding"],
+        "deployTime": 900,
+        "tags": [],
+        "availableCount": 1,
+        "unlockSegment": 13,
+        "region": "ui-main-water-building-icon",
+        "upgrades": [{
+            "config": {
+                "volume": 100000,
+                "speed": 100.08
+            }
+        }, {
+            "config": {
+                "volume": 150000,
+                "speed": 100.12
+            },
+            "price": {
+                "resources": {
+                    "gold": 2000
+                }
+            },
+            "upgradeDuration": 1200
+        }, {
+            "config": {
+                "volume": 225000,
+                "speed": 100.16
+            },
+            "price": {
+                "resources": {
+                    "saronite": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "volume": 350000,
+                "speed": 100.2
+            },
+            "price": {
+                "resources": {
+                    "red-beryl": 10
+                }
+            },
+            "upgradeDuration": 5400
+        }, {
+            "config": {
+                "volume": 575000,
+                "speed": 100.25
+            },
+            "price": {
+                "resources": {
+                    "anaptanium": 10
+                }
+            },
+            "upgradeDuration": 7200
+        }],
+        "prices": [{
+            "resources": {
+                "trillium": 2
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {}
+    }, {
+        "id": "jewellery_building",
+        "classType": "JewelleryBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_JEWEL",
+        "description": "$BLD_DESC_JEWEL",
+        "renderTarget": ["jewelleryBuilding"],
+        "deployTime": 600,
+        "tags": ["recipeBuilding"],
+        "availableCount": 2,
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 28800
+        }, {
+            "config": {
+                "slots": 4
+            },
+            "upgradeDuration": 36000
+        }],
+        "unlockSegment": 50,
+        "region": "ui-main-jewel-building-icon",
+        "prices": [{
+            "coins": 500000
+        }, {
+            "resources": {
+                "amber-jew": 700
+            }
+        }, {
+            "coins": 1000000
+        }, {
+            "resources": {
+                "red-beryl": 10
+            }
+        }, {
+            "resources": {
+                "trillium": 10
+            }
+        }, {
+            "resources": {
+                "anaptanium": 10
+            }
+        }, {
+            "resources": {
+                "saronite": 10
+            }
+        }, {
+            "resources": {
+                "arcanite": 10
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_CRAFTING",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "product": "amber-jew",
+                "amount": "100",
+                "name": "amber-jew",
+                "title": "AmberJewellery",
+                "coin": "1000",
+                "unlockSegment": "50",
+                "time": "1",
+                "ingredients": {
+                    "amber": "5"
+                }
+            }, {
+                "product": "emerald-jew",
+                "amount": "100",
+                "name": "emerald-jew",
+                "title": "EmeraldJewellery",
+                "coin": "15000",
+                "unlockSegment": "50",
+                "time": "1",
+                "ingredients": {
+                    "emerald": "5"
+                }
+            }, {
+                "product": "diamond-jew",
+                "amount": "100",
+                "name": "diamond-jew",
+                "title": "DiamondJewellery",
+                "coin": "30000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "diamond": "5"
+                }
+            }, {
+                "product": "ruby-jew",
+                "amount": "100",
+                "name": "ruby-jew",
+                "title": "RubyJewellery",
+                "coin": "25000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "ruby": "5"
+                }
+            }, {
+                "product": "topaz-jew",
+                "amount": "100",
+                "name": "topaz-jew",
+                "title": "TopazJewellery",
+                "coin": "20000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "topaz": "5"
+                }
+            }, {
+                "product": "sapphire-jew",
+                "amount": "100",
+                "name": "sapphire-jew",
+                "title": "SapphireJewellery",
+                "coin": "31000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "sapphire": "5"
+                }
+            }, {
+                "product": "amethyst-jew",
+                "amount": "100",
+                "name": "amethyst-jew",
+                "title": "AmethystJewellery",
+                "coin": "32000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "amethyst": "5"
+                }
+            }, {
+                "product": "alexandrite-jew",
+                "amount": "100",
+                "name": "alexandrite-jew",
+                "title": "AlexandriteJewellery",
+                "coin": "32000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "alexandrite": "5"
+                }
+            }, {
+                "product": "obsidian-jew",
+                "amount": "100",
+                "name": "obsidian-jew",
+                "title": "[]ObsidianJewellery",
+                "coin": "33000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "obsidian": "5"
+                }
+            }, {
+                "product": "sapphire-crystal-glass",
+                "amount": "10",
+                "name": "sapphire-crystal-glass",
+                "title": "SapphireCrystalGlass",
+                "coin": "35000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "sapphire-jew": "10"
+                }
+            }, {
+                "product": "egypt-gold-emerald-ring",
+                "amount": "10",
+                "name": "egypt-gold-emerald-ring",
+                "title": "EmeraldRing",
+                "coin": "1200",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "emerald-jew": "1",
+                    "gold-bar": "1"
+                }
+            }, {
+                "product": "egypt-silver-amber-pendant",
+                "amount": "10",
+                "name": "egypt-silver-amber-pendant",
+                "title": "AmberBracelet",
+                "coin": "1200",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "amber-jew": "1",
+                    "silver-bar": "1"
+                }
+            }, {
+                "product": "mayan-calendar",
+                "amount": "10",
+                "name": "mayan-calendar",
+                "title": "MayanCalendar",
+                "coin": "10000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "gold-bar": "10",
+                    "silver-bar": "2"
+                }
+            }, {
+                "product": "japanese-brush",
+                "amount": "1",
+                "name": "japanese-brush",
+                "title": "Haircomb",
+                "coin": "11000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "alexandrite-jew": "10",
+                    "amethyst-jew": "15",
+                    "silver-bar": "1"
+                }
+            }, {
+                "product": "obsidian-knife",
+                "amount": "1",
+                "name": "obsidian-knife",
+                "title": "Obsidianknife",
+                "coin": "34000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "obsidian-jew": "50",
+                    "wood": "2",
+                    "silver-bar": "1"
+                }
+            }, {
+                "product": "snow-globe",
+                "amount": "1",
+                "name": "snow-globe",
+                "title": "[]Snowglobe",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "emerald-jew": "10",
+                    "glass": "1",
+                    "flask-water": "1"
+                }
+            }, {
+                "product": "tree-toy",
+                "amount": "1",
+                "name": "tree-toy",
+                "title": "[]Treetoy",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "sapphire-jew": "10",
+                    "glass": "1",
+                    "diamond-jew": "5"
+                }
+            }, {
+                "product": "amulete",
+                "amount": "1",
+                "name": "amulete",
+                "title": "[]Amulet",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "special_event": {
+                    "eventName": "halloween",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "amethyst-jew": "10",
+                    "alexandrite-jew": "5",
+                    "gold-bar": "1"
+                }
+            }]
+        }
+    }, {
+        "id": "crafting_building",
+        "classType": "CraftingBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_CRAFTING",
+        "description": "$BLD_DESC_CRAFTING",
+        "renderTarget": ["craftingBuilding"],
+        "deployTime": 600,
+        "tags": ["recipeBuilding"],
+        "availableCount": 2,
+        "unlockSegment": 9,
+        "region": "ui-main-crafting-building-icon",
+        "upgrades": [{
+            "config": {
+                "slots": 1
+            }
+        }, {
+            "config": {
+                "slots": 2
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "slots": 3
+            },
+            "upgradeDuration": 28800
+        }, {
+            "config": {
+                "slots": 4
+            },
+            "upgradeDuration": 36000
+        }],
+        "prices": [{
+            "coins": 1000
+        }, {
+            "coins": 50000
+        }, {
+            "resources": {
+                "copper-amber-wire": 100
+            }
+        }, {
+            "coins": 200000
+        }, {
+            "coins": 300000
+        }, {
+            "resources": {
+                "circuits": 200
+            }
+        }, {
+            "coins": 1000000
+        }, {
+            "coins": 2000000
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_CRAFTING",
+            "duration": 43200,
+            "price": 10,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipes": [{
+                "amount": "100",
+                "name": "graphite-rod",
+                "title": "GraphiteRod",
+                "coin": "300",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "coal": "5"
+                }
+            }, {
+                "amount": "1000",
+                "name": "copper-nail",
+                "title": "CopperNail",
+                "coin": "400",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "copper-bar": "1"
+                }
+            }, {
+                "amount": "500",
+                "name": "copper-wire",
+                "title": "CopperWire",
+                "coin": "500",
+                "unlockSegment": "0",
+                "time": "1",
+                "ingredients": {
+                    "copper-bar": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "sattelite-dish",
+                "title": "SatteliteDish",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "iron-bar": "20",
+                    "copper-nail": "500",
+                    "copper-wire": "50"
+                }
+            }, {
+                "amount": "10",
+                "name": "battery",
+                "title": "CopperBattery",
+                "coin": "700",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "copper-bar": "5",
+                    "iron-bar": "1",
+                    "amber": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "circuits",
+                "title": "Circuits",
+                "coin": "800",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "copper-bar": "20",
+                    "graphite-rod": "50",
+                    "iron-bar": "10"
+                }
+            }, {
+                "amount": "10",
+                "name": "lamp",
+                "title": "RetroLamp",
+                "coin": "900",
+                "unlockSegment": "13",
+                "time": "1",
+                "hidden": false,
+                "ingredients": {
+                    "graphite-rod": "20",
+                    "copper-wire": "10",
+                    "copper-bar": "5"
+                }
+            }, {
+                "amount": "1",
+                "name": "pc-part-3",
+                "title": "RAMModule",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "battery": "50",
+                    "iron-bar": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "pc-part-2",
+                "title": "InputModule",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "battery": "50",
+                    "iron-bar": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "pc-part-4",
+                "title": "CPUModule",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "circuits": "10",
+                    "iron-bar": "20",
+                    "copper-nail": "600"
+                }
+            }, {
+                "amount": "1",
+                "name": "pc-part-1",
+                "title": "ScreenModule",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "lamp": "50",
+                    "iron-bar": "50",
+                    "copper-wire": "300"
+                }
+            }, {
+                "amount": "1000",
+                "name": "zap-thing",
+                "title": "Ambercharger",
+                "coin": "1100",
+                "unlockSegment": "24",
+                "time": "1",
+                "unlockLevel": "70",
+                "ingredients": {
+                    "amber": 1
+                }
+            }, {
+                "amount": "100",
+                "name": "aluminium-bottle",
+                "title": "AluminiumBottle",
+                "coin": "1300",
+                "unlockSegment": "24",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bar": 1
+                }
+            }, {
+                "amount": "100",
+                "name": "aluminium-bottle-full",
+                "title": "Amberinsulation",
+                "coin": "1500",
+                "unlockSegment": "24",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bottle": 1,
+                    "amber": 10
+                }
+            }, {
+                "amount": "10",
+                "name": "copper-amber-wire",
+                "title": "InsulatedWire",
+                "coin": "1700",
+                "unlockSegment": "24",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bottle-full": 1,
+                    "copper-wire": 1
+                }
+            }, {
+                "amount": "10",
+                "name": "flask",
+                "title": "Flask",
+                "coin": "1000",
+                "unlockSegment": "13",
+                "time": "1",
+                "ingredients": {
+                    "glass": 1
+                }
+            }, {
+                "amount": "50",
+                "name": "aluminium-tank",
+                "title": "[]Aluminiumtank",
+                "coin": "2000",
+                "unlockSegment": "37",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bar": 3
+                }
+            }, {
+                "amount": "20",
+                "name": "mirror",
+                "title": "[]mirror",
+                "coin": "3000",
+                "unlockSegment": "37",
+                "time": "1",
+                "ingredients": {
+                    "silver-bar": 1,
+                    "glass": 1
+                }
+            }, {
+                "amount": "20",
+                "name": "mirror-laser",
+                "title": "MirrorLaser",
+                "coin": "4000",
+                "unlockSegment": "37",
+                "time": "1",
+                "ingredients": {
+                    "mirror": 3,
+                    "lamp": 1,
+                    "battery": 1
+                }
+            }, {
+                "amount": "1",
+                "name": "tesla-coil",
+                "title": "TeslaCoil",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "amber": 100,
+                    "copper-amber-wire": 100,
+                    "graphite-rod": 100
+                }
+            }, {
+                "amount": "1",
+                "name": "aircraft-body",
+                "title": "Aircraftbody",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "aluminium-bar": "500",
+                    "steel-bar": "100",
+                    "copper-nail": "1000"
+                }
+            }, {
+                "amount": "1",
+                "name": "aircraft-engine",
+                "title": "Aircraftengine",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "steel-bar": "100",
+                    "copper-wire": "100",
+                    "silver-bar": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "aircraft-propellers",
+                "title": "Aircraftpropellers",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "steel-bar": "25",
+                    "copper-amber-wire": "50",
+                    "aluminium-bar": "25"
+                }
+            }, {
+                "amount": "1",
+                "name": "aircraft-antenna",
+                "title": "AircraftAntenna",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "steel-bar": "10",
+                    "aluminium-bar": "10",
+                    "copper-nail": "1000"
+                }
+            }, {
+                "amount": "5000",
+                "name": "emerald-zap-thing",
+                "title": "EmeraldLaser",
+                "coin": "10000",
+                "unlockSegment": "53",
+                "time": "1",
+                "ingredients": {
+                    "lamp": 1,
+                    "copper-amber-wire": 1,
+                    "emerald-jew": 1
+                }
+            }, {
+                "amount": "1",
+                "name": "portal",
+                "title": "Portal",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "steel-bar": "1000",
+                    "emerald-jew": "500",
+                    "circuits": "100"
+                }
+            }, {
+                "amount": "10",
+                "name": "diamond-cutter",
+                "title": "DiamondCutter",
+                "coin": "50000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "diamond-jew": "5",
+                    "steel-plate": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "motherboard",
+                "title": "Motherboard",
+                "coin": "100000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "3",
+                    "circuits": "3",
+                    "gold-bar": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "solid-propellant",
+                "title": "Solidpropellant",
+                "coin": "200000",
+                "unlockSegment": "61",
+                "time": "1",
+                "ingredients": {
+                    "rubber": "3",
+                    "aluminium-bar": "10"
+                }
+            }, {
+                "amount": "10",
+                "name": "accumulator",
+                "title": "Accumulator",
+                "coin": "300000",
+                "unlockSegment": "72",
+                "time": "1",
+                "ingredients": {
+                    "sodium": "20",
+                    "sulfur": "20"
+                }
+            }, {
+                "amount": "100",
+                "name": "solar-panel",
+                "title": "Solarpanel",
+                "coin": "400000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "glass": "50",
+                    "silicon": "10",
+                    "rubber": "1"
+                }
+            }, {
+                "amount": "300",
+                "name": "gas-cylinder",
+                "title": "[]Gascylinder",
+                "coin": "405000",
+                "unlockSegment": "73",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-tank": "1",
+                    "plastic": "1",
+                    "steel-plate": "1"
+                }
+            }, {
+                "amount": "100",
+                "name": "titanium-gear",
+                "title": "Gear",
+                "coin": "400000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "titanium-bar": "1",
+                    "diamond-cutter": "1"
+                }
+            }, {
+                "amount": "100",
+                "name": "bomb",
+                "title": "Bomb",
+                "coin": "410000",
+                "unlockSegment": "85",
+                "time": "1",
+                "ingredients": {
+                    "gunpowder": "10",
+                    "steel-bar": "5"
+                }
+            }, {
+                "amount": "1",
+                "name": "tech-inducer",
+                "title": "Techinducer",
+                "coin": "10",
+                "unlockSegment": "0",
+                "time": "1",
+                "hidden": true,
+                "ingredients": {
+                    "steel-plate": "500",
+                    "copper-amber-wire": "1000",
+                    "motherboard": "50"
+                }
+            }, {
+                "amount": "10",
+                "name": "compressor",
+                "title": "Compressor",
+                "coin": "420000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "iron-bar": "5",
+                    "rubber": "1",
+                    "flask-clear-oil": "2"
+                }
+            }, {
+                "amount": "10",
+                "name": "optical-fiber",
+                "title": "Opticalfiber",
+                "coin": "430000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "1",
+                    "oxygen": "10",
+                    "silicon": "10"
+                }
+            }, {
+                "amount": "40",
+                "name": "dry-ice",
+                "title": "[]DryIce",
+                "coin": "450000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "graphite-rod": "1000",
+                    "emerald-zap-thing": "10",
+                    "compressor": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "oxygen-cylinder",
+                "title": "[]Oxygencylinder",
+                "coin": "450000",
+                "unlockSegment": "96",
+                "time": "1",
+                "ingredients": {
+                    "oxygen": "5",
+                    "gas-cylinder": "1",
+                    "compressor": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "magnet",
+                "title": "Magnet",
+                "coin": "465000",
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-bar": "1"
+                }
+            }, {
+                "amount": "10",
+                "name": "electrical-engine",
+                "title": "ElectricalEngine",
+                "coin": "470000",
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "aluminium-bar": "20",
+                    "magnet": "1",
+                    "copper-amber-wire": "50"
+                }
+            }, {
+                "amount": "10",
+                "name": "lcd-monitor",
+                "title": "[]LCDMonitor",
+                "coin": "471000",
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "sapphire-crystal-glass": "5",
+                    "silicon": "5",
+                    "copper-amber-wire": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-two",
+                "title": "[]AsteroidRocketTwo",
+                "coin": "472000",
+                "unlockSegment": "0",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "solar-panel": "1",
+                    "optical-fiber": "10",
+                    "steel-plate": "50"
+                }
+            }, {
+                "amount": "10",
+                "name": "cool-chipset",
+                "title": "[]chipset",
+                "coin": "475000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "flask-hcl": "1",
+                    "circuits": "3",
+                    "silver-bar": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-three",
+                "title": "[]AsteroidRocketThree",
+                "coin": "477000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "moonstone": "1",
+                    "copper-amber-wire": "100",
+                    "titanium-bar": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-four",
+                "title": "[]AsteroidRocketFour",
+                "coin": "478000",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "red-beryl": "1",
+                    "sapphire-crystal-glass": "100",
+                    "magnetite-bar": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "cool-laser",
+                "title": "[]research-beam",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "luteium-bar": "40",
+                    "cool-chipset": "50",
+                    "accumulator": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "gas-storage",
+                "title": "[]Gasstorage",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "gas-cylinder": "100",
+                    "motherboard": "1000",
+                    "electrical-engine": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "nitrogenium-tank",
+                "title": "NitrogenTank",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "aluminium-tank": "1",
+                    "liquid-nitrogen": "4"
+                }
+            }, {
+                "amount": "1",
+                "name": "excimer-laser",
+                "title": "[]Excimerlaser",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "mirror-laser": "50",
+                    "sapphire-crystal-glass": "1000",
+                    "solar-panel": "55"
+                }
+            }, {
+                "amount": "1",
+                "name": "corona-discharge-tube",
+                "title": "CoronaDischargeTube",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "enriched-uranium": "1",
+                    "mirror-laser": "3",
+                    "steel-plate": "2"
+                }
+            }, {
+                "amount": "1",
+                "name": "chemical-plant",
+                "title": "[]ChemicalPlant",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "zeolit": "100",
+                    "flask": "5000",
+                    "titanium-bar": "200"
+                }
+            }, {
+                "amount": "1",
+                "name": "pesticide-nebulizer",
+                "title": "[]Pesticidenebulizer",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "chlorine": "1000",
+                    "flask-clear-oil": "1500",
+                    "solar-panel": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "cloning-device",
+                "title": "[]Cloningdevice",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "dna-fauna-capsule": "3",
+                    "lcd-monitor": "30",
+                    "accumulator": "1000"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-base-one",
+                "title": "[]Rocketbaseone",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "45",
+                    "diamond-cutter": "225",
+                    "aluminium-bar": "1250"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engine",
+                "title": "RocketEngine",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "iron-bar": "22250",
+                    "copper-wire": "10000",
+                    "rubber": "90"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engine-one",
+                "title": "[]rocketengineone",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "25",
+                    "diamond-cutter": "310",
+                    "aluminium-bar": "3120"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engine-two",
+                "title": "[]rocketenginetwo",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "25",
+                    "diamond-cutter": "310",
+                    "aluminium-bar": "3120"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engine-three",
+                "title": "[]rocketenginethree",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "25",
+                    "diamond-cutter": "310",
+                    "aluminium-bar": "3120"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engin-part-one",
+                "title": "[]rocketengineonenozzle",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-bar": "25",
+                    "aluminium-bar": "6250",
+                    "graphite-rod": "15100"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engin-part-two",
+                "title": "[]rocketenginetwonozzle",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-bar": "25",
+                    "aluminium-bar": "6250",
+                    "graphite-rod": "15100"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engin-part-three",
+                "title": "[]rocketenginethreenozzle",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-bar": "25",
+                    "aluminium-bar": "6250",
+                    "graphite-rod": "15100"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engin-part-four",
+                "title": "[]rocketenginefournozzle",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-bar": "20",
+                    "aluminium-bar": "6450",
+                    "graphite-rod": "15250"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-engine-indicator",
+                "title": "[]rocketengineindicator",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "accumulator": "2555",
+                    "solar-panel": "65"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-aircraft",
+                "title": "[]rocketaircraft",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "lamp": "1900",
+                    "glass": "1600",
+                    "copper-bar": "9555"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-antena",
+                "title": "[]rocketantena",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "steel-bar": "1060",
+                    "aluminium-bar": "3200"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-base-two",
+                "title": "[]rocketbasetwo",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "45",
+                    "diamond-cutter": "225",
+                    "aluminium-bar": "1250"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-base-three",
+                "title": "[]rocketbasethree",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "45",
+                    "diamond-cutter": "225",
+                    "aluminium-bar": "1250"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-capsule",
+                "title": "[]rocketcapsule",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "rubber": "45",
+                    "diamond-cutter": "225",
+                    "aluminium-bar": "1250"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-connector-one",
+                "title": "[]rocketconnectorone",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "steel-plate": "777",
+                    "rubber": "25",
+                    "copper-nail": "33350"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-connector-two",
+                "title": "[]rocketconnectortwo",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "steel-plate": "777",
+                    "rubber": "25",
+                    "copper-nail": "33350"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-connector-three",
+                "title": "[]rocketconnectorthree",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "steel-plate": "777",
+                    "rubber": "25",
+                    "copper-nail": "33350"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-gyroscope",
+                "title": "[]rocketgyroscope",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "emerald-zap-thing": "7550",
+                    "glass": "1600",
+                    "silver-bar": "1600"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-wing-one",
+                "title": "[]rocketwingone",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-gear": "100",
+                    "aluminium-bar": "8888",
+                    "steel-plate": "1111"
+                }
+            }, {
+                "amount": "1",
+                "name": "rocket-wing-two",
+                "title": "[]rocketwingtwo",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "titanium-gear": "85",
+                    "aluminium-bar": "6250",
+                    "steel-plate": "777"
+                }
+            }, {
+                "amount": "1",
+                "name": "pumpkin-dagger",
+                "title": "[]CopperCarvingKnife",
+                "coin": "100",
+                "time": "120",
+                "special_event": {
+                    "eventName": "halloween",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "pumpkin": "1",
+                    "copper-bar": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "pumpkin-carved",
+                "alternativeProducts": {
+                    "name": "pumpkin-defective",
+                    "percent": 20
+                },
+                "title": "[]Carvedpumpkin",
+                "coin": "100",
+                "time": "240",
+                "special_event": {
+                    "eventName": "halloween",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "pumpkin": "1",
+                    "pumpkin-dagger": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "mega-pumpkin",
+                "title": "[]Megapumpkin",
+                "coin": "100",
+                "time": "300",
+                "hidden": true,
+                "special_event": {
+                    "eventName": "halloween",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "pumpkin-carved": "4500"
+                }
+            }, {
+                "amount": "1",
+                "name": "fire-pumpkin-torch",
+                "title": "[]PumpkinTorch",
+                "coin": "100",
+                "time": "600",
+                "hidden": true,
+                "special_event": {
+                    "eventName": "halloween",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "pumpkin-carved": "10",
+                    "fire-spark": "1",
+                    "magic-box": 1
+                }
+            }, {
+                "amount": "1",
+                "name": "gift-crimson",
+                "title": "[]CrimsonGift",
+                "coin": "10",
+                "time": "1800",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "magic-box": "1",
+                    "candy-red": "300"
+                }
+            }, {
+                "amount": "1",
+                "name": "gift-yellow",
+                "title": "[]YellowGift",
+                "coin": "10",
+                "time": "1800",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "magic-box": "1",
+                    "candy-yellow": "300"
+                }
+            }, {
+                "amount": "1",
+                "name": "gift-purple",
+                "title": "[]CrimsonGift",
+                "coin": "10",
+                "time": "1800",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 2
+                },
+                "ingredients": {
+                    "magic-box": "1",
+                    "candy-green": "300"
+                }
+            }, {
+                "amount": "1",
+                "name": "candy-set",
+                "title": "[]Candyset",
+                "coin": "10",
+                "time": "25",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 3
+                },
+                "ingredients": {
+                    "candy-red": "3",
+                    "candy-yellow": "3",
+                    "candy-green": "3"
+                }
+            }, {
+                "amount": "1",
+                "name": "sock",
+                "title": "[]sock",
+                "coin": "10",
+                "time": "150",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 3
+                },
+                "ingredients": {
+                    "candy-set": "1",
+                    "graphite-rod": "10",
+                    "magic-box": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "candy-sock",
+                "title": "[]CandySocks",
+                "coin": "10",
+                "time": "30",
+                "special_event": {
+                    "eventName": "christmas",
+                    "unlockStep": 3
+                },
+                "ingredients": {
+                    "sock": "1",
+                    "candy-set": "2"
+                }
+            }, {
+                "amount": "1",
+                "name": "zip-drive",
+                "title": "[]ZipDrive",
+                "coin": "10",
+                "time": "30",
+                "special_event": {
+                    "eventName": "aprilone",
+                    "unlockStep": 0
+                },
+                "ingredients": {
+                    "magic-box": "1",
+                    "circuits": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-wisdom",
+                "title": "[]StoneofWisdom",
+                "coin": "10",
+                "hidden": true,
+                "time": "1200",
+                "ingredients": {
+                    "stone-of-wisdom-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-strength",
+                "title": "[]NAME-stone",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-strength-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-kindness",
+                "title": "[]StoneofKindness",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-kindness-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-mistakes",
+                "title": "[]StoneofMistakes",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-mistakes-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-shine",
+                "title": "[]StoneofShine",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-shine-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-empathy",
+                "title": "[]StoneofEmpathy",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-empathy-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-entropy",
+                "title": "[]StoneofEntropy",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-entropy-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-radiation",
+                "title": "[]StoneofRadiation",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-radiation-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "stone-of-eternity",
+                "title": "[]StoneofEternity",
+                "coin": "10",
+                "hidden": true,
+                "time": "18000",
+                "ingredients": {
+                    "stone-of-eternity-splinters": "100",
+                    "rubber": "3",
+                    "sulfur": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "oxygen-concentrator",
+                "title": "[]Oxygenconcentrator",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "zeolit": "100",
+                    "compressor": "10",
+                    "steel-pipe": "1000"
+                }
+            }, {
+                "amount": "1",
+                "name": "receiver-skeleton",
+                "title": "[]EnergyReceiverSkeleton",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "copper-nail": "1000",
+                    "titanium-gear": "100",
+                    "steel-plate": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "resonators-controller",
+                "title": "[]Resonatorscontroller",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "circuits": "500",
+                    "motherboard": "300",
+                    "steel-plate": "1000"
+                }
+            }, {
+                "amount": "1",
+                "name": "conductor-one",
+                "title": "[]Conductorone",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "copper-wire": "5000",
+                    "glass": "500",
+                    "steel-plate": "200"
+                }
+            }, {
+                "amount": "1",
+                "name": "conductor-two",
+                "title": "[]Conductortwo",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "copper-wire": "5000",
+                    "glass": "500",
+                    "steel-plate": "200"
+                }
+            }, {
+                "amount": "1",
+                "name": "conductor-three",
+                "title": "[]Conductorthree",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "copper-wire": "5000",
+                    "glass": "500",
+                    "steel-plate": "200"
+                }
+            }, {
+                "amount": "1",
+                "name": "feeder",
+                "title": "[]Feeder",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "titanium-gear": "300",
+                    "iron-bar": "5000",
+                    "plastic": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "federation-chipset",
+                "title": "[]FederationChipset",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "cool-chipset": "50",
+                    "copper-amber-wire": "500",
+                    "motherboard": "300"
+                }
+            }, {
+                "amount": "1",
+                "name": "radiometer",
+                "title": "[]Radiometer",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "electrical-engine": "5",
+                    "gold-bar": "10000",
+                    "optical-fiber": "300"
+                }
+            }, {
+                "amount": "1",
+                "name": "_accumulator-one",
+                "title": "[]accumulatorone",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-bar": "16",
+                    "graphite-rod": "10000",
+                    "copper-amber-wire": "500"
+                }
+            }, {
+                "amount": "1",
+                "name": "_accumulator-two",
+                "title": "[]accumulatortwo",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-bar": "16",
+                    "graphite-rod": "10000",
+                    "copper-amber-wire": "500"
+                }
+            }, {
+                "amount": "1",
+                "name": "_accumulator-three",
+                "title": "[]accumulatorthree",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-bar": "16",
+                    "graphite-rod": "10000",
+                    "copper-amber-wire": "500"
+                }
+            }, {
+                "amount": "1",
+                "name": "_accumulator-four",
+                "title": "[]accumulatorfour",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "magnetite-bar": "16",
+                    "graphite-rod": "10000",
+                    "copper-amber-wire": "500"
+                }
+            }, {
+                "amount": "1",
+                "name": "circuit-breaker",
+                "title": "[]Circuitbreaker",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "titanium-gear": "100",
+                    "iron-bar": "1000",
+                    "plastic": "7"
+                }
+            }, {
+                "amount": "1",
+                "name": "superconductor",
+                "title": "[]Superconductor",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "liquid-nitrogen": "5",
+                    "iron-bar": "4000",
+                    "copper-bar": "5000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-one",
+                "title": "[]UndergroundResonatorOne",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-two",
+                "title": "[]UndergroundResonatorTwo",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-three",
+                "title": "[]UndergroundResonatorThree",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-four",
+                "title": "[]UndergroundResonatorFour",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-five",
+                "title": "[]UndergroundResonatorFive",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-six",
+                "title": "[]UndergroundResonatorSix",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-seven",
+                "title": "[]UndergroundResonatorSeven",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-eight",
+                "title": "[]UndergroundResonatorEight",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-nine",
+                "title": "[]UndergroundResonatorNine",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_underground-resonator-ten",
+                "title": "[]UndergroundResonatorTen",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "silicon": "1000",
+                    "titanium-bar": "500",
+                    "copper-wire": "10000"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-one",
+                "title": "[]CoolerMachineOne",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-two",
+                "title": "[]CoolerMachineTwo",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-three",
+                "title": "[]CoolerMachineThree",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-four",
+                "title": "[]CoolerMachineFour",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-five",
+                "title": "[]CoolerMachineFive",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-six",
+                "title": "[]CoolerMachineSix",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-seven",
+                "title": "[]CoolerMachineSeven",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-eight",
+                "title": "[]CoolerMachineEight",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-nine",
+                "title": "[]CoolerMachineNine",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "_cooler-machine-ten",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "unlockSegment": "108",
+                "time": "1",
+                "ingredients": {
+                    "plastic": "5",
+                    "nitrogenium-tank": "5",
+                    "steel-plate": "120"
+                }
+            }, {
+                "amount": "1",
+                "name": "blueprint-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "blueprint-excavated": "1",
+                    "wood": "5",
+                    "flask-water": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-part-one-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-one-excavated": "1",
+                    "flask-sulfuric-acid": "10",
+                    "copper-amber-wire": "30"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-part-two-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-two-excavated": "1",
+                    "flask-sulfuric-acid": "10",
+                    "copper-amber-wire": "30"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-part-three-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-three-excavated": "1",
+                    "flask-sulfuric-acid": "10",
+                    "copper-amber-wire": "30"
+                }
+            }, {
+                "amount": "1",
+                "name": "antimatter-recovered-one",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "_antimatter-excavated-one": "1",
+                    "magnet": "2",
+                    "sapphire-crystal-glass": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "antimatter-recovered-two",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "_antimatter-excavated-two": "1",
+                    "magnet": "2",
+                    "sapphire-crystal-glass": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "antimatter-recovered-three",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "_antimatter-excavated-three": "1",
+                    "magnet": "2",
+                    "sapphire-crystal-glass": "10"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-working-part-one",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-one-recovered": "1",
+                    "antimatter-recovered-one": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-working-part-two",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-two-recovered": "1",
+                    "antimatter-recovered-two": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-working-part-three",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-part-three-recovered": "1",
+                    "antimatter-recovered-three": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "minkowski-pc-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "cool-chipset": "10",
+                    "minkowski-pc-excavated": "1",
+                    "optical-fiber": "50"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-transducer-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-transducer-excavated": "1",
+                    "titanium-bar": "20",
+                    "copper-amber-wire": "100"
+                }
+            }, {
+                "amount": "1",
+                "name": "radar",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "magnet": "15",
+                    "optical-fiber": "200",
+                    "motherboard": "20"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-skeleton",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-working-part-one": "1",
+                    "portal-working-part-two": "1",
+                    "portal-working-part-three": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-brain",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "minkowski-pc-recovered": "1",
+                    "portal-heart-recovered": "1",
+                    "portal-transducer-recovered": "1"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-heart-recovered",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-heart-excavated": "1",
+                    "aluminium-bottle-ethanol": "10",
+                    "flask-water": "15"
+                }
+            }, {
+                "amount": "1",
+                "name": "portal-for-mankind",
+                "title": "[]CoolerMachineTen",
+                "coin": "10",
+                "hidden": true,
+                "time": "1",
+                "ingredients": {
+                    "portal-skeleton": "1",
+                    "portal-brain": "1",
+                    "nano-ram": "1"
+                }
+            }]
+        }
+    }, {
+        "id": "tech_lab_building",
+        "classType": "TechLabBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_TECH_LAB",
+        "description": "$BLD_DESC_TECH_LAB",
+        "deployTime": 3600,
+        "tags": ["RESOURCE"],
+        "unlockSegment": 96,
+        "region": "ui-main-mining-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "resources": {
+                "tech-inducer": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_MINING",
+            "duration": 900,
+            "price": 5,
+            "multiplier": 2.5
+        },
+        "configs": {}
+    }, {
+        "id": "asteroid_tech_lab_building",
+        "classType": "TechLabBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_TECH_LAB",
+        "description": "$BLD_DESC_TECH_LAB",
+        "deployTime": 180,
+        "tags": ["ASTEROID"],
+        "availableCount": 1,
+        "unlockSegment": 0,
+        "region": "ui-main-mining-building-icon",
+        "upgrades": [],
+        "prices": [{
+            "coins": 100000
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_MINING",
+            "duration": 900,
+            "price": 5,
+            "multiplier": 2.5
+        },
+        "configs": {}
+    }, {
+        "id": "observatory_building",
+        "classType": "ObservatoryBuildingScript",
+        "renderTarget": ["observatoryBuilding"],
+        "type": 0,
+        "name": "$BLD_NAME_OBSERVATORY",
+        "description": "$BLD_DESC_OBSERVATORY",
+        "deployTime": 300,
+        "tags": [],
+        "unlockSegment": 61,
+        "unlockFearture": "observatory_building",
+        "availableCount": 1,
+        "region": "ui-main-observatory-icon",
+        "upgrades": [{
+            "config": {
+                "groupIndex": 0
+            }
+        }, {
+            "config": {
+                "groupIndex": 1
+            },
+            "price": {
+                "resources": {
+                    "salt-crystals": 2000
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "groupIndex": 2
+            },
+            "price": {
+                "resources": {
+                    "flora-defender": 100
+                }
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "coins": 1500000
+        }, {
+            "resources": {
+                "salt-crystals": 2000
+            }
+        }, {
+            "resources": {
+                "flora-defender": 100
+            }
+        }],
+        "configs": {}
+    }, {
+        "id": "asteroid_mining_station",
+        "classType": "AsteroidMiningBuildingScript",
+        "type": 1,
+        "name": "$BLD_NAME_MINING",
+        "description": "$BLD_DESC_MINING",
+        "deployTime": 600,
+        "availableCount": 3,
+        "tags": ["ASTEROID"],
+        "unlockSegment": 0,
+        "region": "ui-main-mining-building-icon",
+        "upgrades": [{
+            "config": {
+                "groupIndex": 0
+            }
+        }],
+        "prices": [{
+            "coins": 1000
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_MINING",
+            "duration": 900,
+            "price": 5,
+            "multiplier": 2.5
+        },
+        "config": {}
+    }, {
+        "id": "terraforming_base_building",
+        "classType": "TerraformingBaseBuilding",
+        "type": 0,
+        "name": "$BLD_NAME_DUMMY",
+        "description": "$BLD_DESC_DUMMY",
+        "renderTarget": ["terraformingBaseBuilding"],
+        "deployTime": 3600,
+        "tags": ["TERRAFORMING"],
+        "region": "ui-main-mining-building-icon",
+        "unlockSegment": 0,
+        "upgrades": [{
+            "coins": 20
+        }],
+        "prices": [{
+            "coins": 10
+        }],
+        "configs": {}
+    }, {
+        "id": "oxygenium_building",
+        "classType": "OxygeniumBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_OXIGENIUM_BUILDING",
+        "description": "$BLD_DESC_OXIGENIUM_BUILDING",
+        "deployTime": 600,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 62,
+        "renderTarget": ["oxygeniumBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 2
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 6500
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 5
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 19530
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 8
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 32550
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 2
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 6500
+                }, {
+                    "time": 5400,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 5
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 19530
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 8
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 32550
+                }]
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": "100",
+                    "iron-bar": "100"
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 2,
+                "slots": [{
+                    "time": 1800,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 2
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 6500
+                }, {
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 5
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 19530
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "oxygen-cylinder": 8
+                        }
+                    },
+                    "resource": "oxygen",
+                    "amount": 32550
+                }]
+            },
+            "price": {
+                "coins": 1000000
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "oxygen-concentrator": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "oxygen",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "oxygen-cylinder": "5"
+                }
+            }
+        }
+    }, {
+        "id": "nitroejicio_building",
+        "classType": "NitroejicioBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_NITROGENIUM_BUILDING",
+        "description": "$BLD_DESC_NITROGENIUM_BUILDING",
+        "deployTime": 3600,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 63,
+        "renderTarget": ["nitroejicioBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 2
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 13030
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 5
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 39060
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 8
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 65100
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 2,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 2
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 13030
+                }, {
+                    "time": 5400,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 5
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 39060
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 8
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 65100
+                }]
+            },
+            "price": {
+                "resources": {
+                    "solar-panel": "100",
+                    "iron-bar": "100"
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 3,
+                "slots": [{
+                    "time": 1800,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 2
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 13030
+                }, {
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 5
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 39060
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "nitrogenium-tank": 8
+                        }
+                    },
+                    "resource": "nitrogen",
+                    "amount": 65100
+                }]
+            },
+            "price": {
+                "coins": 1000000
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "gas-storage": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "nitrogen",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "liquid-nitrogen": "5"
+                }
+            }
+        }
+    }, {
+        "id": "ozonize_building",
+        "classType": "OzonizerBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_OZONIZER_BUILDING",
+        "description": "$BLD_DESC_OZONIZER_BUILDING",
+        "deployTime": 43200,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 64,
+        "renderTarget": ["ozonizerBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 3
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 880
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 8
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 2610
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 12
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 4350
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 5400,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 3
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 880
+                }, {
+                    "time": 9000,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 8
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 2610
+                }, {
+                    "time": 14400,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 12
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 4350
+                }]
+            },
+            "price": {
+                "resources": {
+                    "trillium": 5
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 3
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 880
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 8
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 2610
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "corona-discharge-tube": 12
+                        }
+                    },
+                    "resource": "ozon",
+                    "amount": 4350
+                }]
+            },
+            "price": {
+                "resources": {
+                    "arcanite": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "excimer-laser": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "ozon",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "oxygen": "5"
+                }
+            }
+        }
+    }, {
+        "id": "ocean_creator_building",
+        "classType": "OceanCreatorBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_OCEAN_CREATOR_BUILDING",
+        "description": "$BLD_DESC_OCEAN_CREATOR_BUILDING",
+        "deployTime": 43200,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 65,
+        "renderTarget": ["oceanCreatorBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "seawater": 20
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 6510
+                }, {
+                    "time": 14400,
+                    "price": {
+                        "resources": {
+                            "seawater": 50
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 19530
+                }, {
+                    "time": 21600,
+                    "price": {
+                        "resources": {
+                            "seawater": 80
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 32550
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 2,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "seawater": 30
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 6510
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "seawater": 80
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 19530
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "seawater": 120
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 32550
+                }]
+            },
+            "price": {
+                "resources": {
+                    "anaptanium": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 3,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "seawater": 30
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 6510
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "seawater": 80
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 19530
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "seawater": 120
+                        }
+                    },
+                    "resource": "ocean",
+                    "amount": 32550
+                }]
+            },
+            "price": {
+                "resources": {
+                    "trillium": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "chemical-plant": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "ocean",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "seawater": "5"
+                }
+            }
+        }
+    }, {
+        "id": "flora_building",
+        "classType": "FloraBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_FLORA_BUILDING",
+        "description": "$BLD_DESC_FLORA_BUILDING",
+        "deployTime": 43200,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 67,
+        "renderTarget": ["floraBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "pine": 4
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 11450
+                }, {
+                    "time": 14400,
+                    "price": {
+                        "resources": {
+                            "pine": 9
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 34380
+                }, {
+                    "time": 21600,
+                    "price": {
+                        "resources": {
+                            "pine": 13
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 57300
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 2,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "pine": 4
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 11450
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "pine": 9
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 34380
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "pine": 13
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 57300
+                }]
+            },
+            "price": {
+                "resources": {
+                    "trillium": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 3,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "pine": 4
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 11450
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "pine": 9
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 34380
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "pine": 13
+                        }
+                    },
+                    "resource": "flora",
+                    "amount": 57300
+                }]
+            },
+            "price": {
+                "resources": {
+                    "saronite": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "pesticide-nebulizer": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "pine",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "flora": "5"
+                }
+            }
+        }
+    }, {
+        "id": "fauna_building",
+        "classType": "FaunaBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_FAUNA_BUILDING",
+        "description": "$BLD_DESC_FAUNA_BUILDING",
+        "deployTime": 43200,
+        "availableCount": 1,
+        "tags": ["TERRAFORMING"],
+        "unlockSegment": 68,
+        "renderTarget": ["faunaBuilding"],
+        "region": "ui-main-nuclear-reactor-building-icon",
+        "upgrades": [{
+            "config": {
+                "electricityUsage": 1,
+                "slots": [{
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 2
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 14580
+                }, {
+                    "time": 14400,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 5
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 43750
+                }, {
+                    "time": 21600,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 8
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 72930
+                }]
+            }
+        }, {
+            "config": {
+                "electricityUsage": 2,
+                "slots": [{
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 2
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 14580
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 5
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 43750
+                }, {
+                    "time": 18000,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 8
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 72930
+                }]
+            },
+            "price": {
+                "resources": {
+                    "anaptanium": 20
+                }
+            },
+            "upgradeDuration": 3600
+        }, {
+            "config": {
+                "electricityUsage": 3,
+                "slots": [{
+                    "time": 3600,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 2
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 14580
+                }, {
+                    "time": 7200,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 5
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 43750
+                }, {
+                    "time": 10800,
+                    "price": {
+                        "resources": {
+                            "primordial-soup": 8
+                        }
+                    },
+                    "resource": "fauna",
+                    "amount": 72930
+                }]
+            },
+            "price": {
+                "resources": {
+                    "anaptanium": 10
+                }
+            },
+            "upgradeDuration": 3600
+        }],
+        "prices": [{
+            "resources": {
+                "cloning-device": 1
+            }
+        }],
+        "boost": {
+            "description": "$BLD_BOOST_WATER",
+            "duration": 43200,
+            "price": 5,
+            "multiplier": 2
+        },
+        "configs": {
+            "recipe": {
+                "amount": "1",
+                "name": "flask-clear-oil",
+                "title": "GraphiteRod",
+                "time": "5",
+                "ingredients": {
+                    "fauna": "5"
+                }
+            }
+        }
+    }, {
+        "id": "receiver_building",
+        "classType": "ReceiverBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_ELMAG_RECEIVER",
+        "description": "$BLD_DESC_ELMAG_RECEIVER",
+        "deployTime": 28800,
+        "tags": ["galactic"],
+        "availableCount": 1,
+        "unlockSegment": "108",
+        "renderTarget": ["receiverBuilding"],
+        "region": "ui-main-satellite-icon",
+        "upgrades": [{}],
+        "prices": [{
+            "resources": {
+                "receiver-skeleton": 1
+            }
+        }],
+        "configs": {
+            "satelliteItems": ["conductor-one", "conductor-two", "conductor-three", "feeder", "federation-chipset", "radiometer"],
+            "accumulatorItems": ["_accumulator-one", "_accumulator-two", "_accumulator-three", "_accumulator-four", "circuit-breaker", "superconductor"]
+        }
+    }, {
+        "id": "resonator_controller_building",
+        "classType": "ResonatorControllerBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_RESONATOR_CONTROLLER",
+        "description": "$BLD_DESC_RESONATOR_CONTROLLER",
+        "deployTime": 10800,
+        "tags": ["galactic"],
+        "availableCount": 1,
+        "unlockSegment": "108",
+        "renderTarget": ["resonatorControllerBuilding"],
+        "region": "ui-main-controller-building-icon",
+        "upgrades": [{}],
+        "prices": [{
+            "resources": {
+                "resonators-controller": 1
+            }
+        }],
+        "configs": {
+            "resonatorItems": ["_underground-resonator-one", "_underground-resonator-two", "_underground-resonator-three", "_underground-resonator-four", "_underground-resonator-five", "_underground-resonator-six", "_underground-resonator-seven", "_underground-resonator-eight", "_underground-resonator-nine", "_underground-resonator-ten"],
+            "coolerItems": ["_cooler-machine-one", "_cooler-machine-two", "_cooler-machine-three", "_cooler-machine-four", "_cooler-machine-five", "_cooler-machine-six", "_cooler-machine-seven", "_cooler-machine-eight", "_cooler-machine-nine", "_cooler-machine-ten"]
+        }
+    }, {
+        "id": "research_building",
+        "classType": "ResearchBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_ECHOLOCATOR",
+        "description": "$BLD_DESC_ECHOLOCATOR",
+        "deployTime": 28800,
+        "tags": ["galactic"],
+        "availableCount": 1,
+        "unlockSegment": "108",
+        "unlockFearture": "research_building",
+        "renderTarget": ["researchBuilding"],
+        "region": "ui-main-research-building-icon",
+        "upgrades": [{
+            "config": {
+                "bots": 1
+            }
+        }, {
+            "price": {
+                "crystals": 20
+            },
+            "config": {
+                "bots": 2
+            },
+            "upgradeDuration": 10800
+        }, {
+            "price": {
+                "crystals": 30
+            },
+            "config": {
+                "bots": 3
+            },
+            "upgradeDuration": 10800
+        }, {
+            "price": {
+                "crystals": 50
+            },
+            "config": {
+                "bots": 4
+            },
+            "upgradeDuration": 10800
+        }],
+        "prices": [{
+            "resources": {
+                "radar": 1
+            }
+        }],
+        "configs": {
+            "researchItems": [{
+                "blueprint-excavated": 87
+            }, {
+                "portal-part-one-excavated": 12
+            }, {
+                "_antimatter-excavated-one": 24
+            }, {
+                "portal-part-two-excavated": 47
+            }, {
+                "_antimatter-excavated-two": 53
+            }, {
+                "portal-part-three-excavated": 68
+            }, {
+                "_antimatter-excavated-three": 39
+            }, {
+                "minkowski-pc-excavated": 99
+            }, {
+                "portal-transducer-excavated": 116
+            }, {
+                "portal-heart-excavated": 77
+            }, {
+                "nano-ram": 108
+            }, {
+                "sandship-beacon": 60
+            }]
+        }
+    }, {
+        "id": "galactic_portal_building",
+        "classType": "GalacticPortalBuildingScript",
+        "type": 0,
+        "name": "$BLD_NAME_PORTAL",
+        "description": "$BLD_DESC_PORTAL",
+        "deployTime": 43200,
+        "tags": ["galactic"],
+        "availableCount": 1,
+        "unlockSegment": "108",
+        "unlockFearture": "galactic_portal_building",
+        "renderTarget": ["galacticPortalBuilding"],
+        "region": "ui-main-galactic-portal-icon",
+        "upgrades": [{}],
+        "prices": [{
+            "resources": {
+                "portal-for-mankind": 1
+            }
+        }],
+        "configs": {}
+    }]
+}

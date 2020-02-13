@@ -1,0 +1,819 @@
+<caves>
+    <cave segment="4" id="post_modern_cave">
+        <costsMap>
+            <cost order="0">10</cost>
+            <cost order="1">20</cost>
+            <cost order="2">50</cost>
+            <cost order="3">200</cost>
+            <cost order="4">350</cost>
+            <cost order="5">500</cost>
+            <cost order="6">1000</cost>
+            <cost order="7">2000</cost>
+            <cost order="8">3000</cost>
+        </costsMap>
+        <title>$CAVE_POST_MODERN_CAVE_TITLE</title>
+        <description>$CAVE_POST_MODERN_CAVE_DESC</description>
+        <entrancetext>$EXPEDITION_INIT_TEXT</entrancetext>
+        <discoveries>
+            <discovery id="this_is_earth">
+                <title>$CAVE_POST_MODERN_CAVE_THIS_IS_EARTH_TITLE</title>
+                <region>ui-archeology-human-bones</region>
+                <description>$CAVE_POST_MODERN_CAVE_THIS_IS_EARTH_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="10" order="0">
+                        <item id="clay_plate">
+                            <title>$EXPEDITION_ITEM_CLAY_PLATE_TITLE</title>
+                            <region>ui-archeology-clay-plate</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CLAY_PLATE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CLAY_PLATE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CLAY_PLATE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CLAY_PLATE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="1">
+                        <item id="clay_vase">
+                            <title>$EXPEDITION_ITEM_CLAY_VASE_TITLE</title>
+                            <region>ui-archeology-clay-vase</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CLAY_VASE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CLAY_VASE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CLAY_VASE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CLAY_VASE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="1">
+                        <item id="wall_drawing">
+                            <title>$EXPEDITION_ITEM_WALL_DRAWING_TITLE</title>
+                            <region>ui-archeology-wall-stone</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_WALL_DRAWING_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_WALL_DRAWING_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_WALL_DRAWING_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_WALL_DRAWING_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="1">
+                        <item id="iron_spear">
+                            <title>$EXPEDITION_ITEM_IRON_SPEAR_TITLE</title>
+                            <region>ui-archeology-spear</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_IRON_SPEAR_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_IRON_SPEAR_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_IRON_SPEAR_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_IRON_SPEAR_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="70" order="2">
+                        <item id="human_bone">
+                            <title>$EXPEDITION_ITEM_HUMAN_BONE_TITLE</title>
+                            <region>ui-archeology-human-bones</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_HUMAN_BONE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_HUMAN_BONE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_HUMAN_BONE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_HUMAN_BONE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="john_doe">
+                <title>$CAVE_POST_MODERN_CAVE_JOHN_DOE_TITLE</title>
+                <region>ui-archeology-phone</region>
+                <description>$CAVE_POST_MODERN_CAVE_JOHN_DOE_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="dual_braclet">
+                            <title>$EXPEDITION_ITEM_DUAL_BRACLET_TITLE</title>
+                            <region>ui-archeology-bracelet</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_DUAL_BRACLET_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_DUAL_BRACLET_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_DUAL_BRACLET_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_DUAL_BRACLET_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="the_badge">
+                            <title>$EXPEDITION_ITEM_THE_BADGE_TITLE</title>
+                            <region>ui-archeology-badge</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_THE_BADGE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_THE_BADGE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_THE_BADGE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_THE_BADGE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="drawing_of_elder">
+                            <title>$EXPEDITION_ITEM_DRAWING_OF_ELDER_TITLE</title>
+                            <region>ui-archeology-drawing</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_DRAWING_OF_ELDER_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_DRAWING_OF_ELDER_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_DRAWING_OF_ELDER_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_DRAWING_OF_ELDER_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="pill_box">
+                            <title>$EXPEDITION_ITEM_PILL_BOX_TITLE</title>
+                            <region>ui-archeology-tamoxifen</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_PILL_BOX_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_PILL_BOX_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_PILL_BOX_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_PILL_BOX_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="300" order="4">
+                        <item id="smartphone">
+                            <title>$EXPEDITION_ITEM_SMARTPHONE_TITLE</title>
+                            <region>ui-archeology-phone</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_SMARTPHONE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_SMARTPHONE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_SMARTPHONE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_SMARTPHONE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="raise_of_elders">
+                <title>$CAVE_POST_MODERN_CAVE_RAISE_OF_ELDERS_TITLE</title>
+                <region>ui-archeology-diagram-of-earth-core</region>
+                <description>$CAVE_POST_MODERN_CAVE_RAISE_OF_ELDERS_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="200" order="5">
+                        <item id="research_papers1">
+                            <title>$EXPEDITION_ITEM_RESEARCH_PAPERS1_TITLE</title>
+                            <region>ui-archeology-research-papers</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPERS1_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPERS1_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPERS1_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPERS1_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="5">
+                        <item id="newspaper">
+                            <title>$EXPEDITION_ITEM_NEWSPAPER_TITLE</title>
+                            <region>ui-archeology-newspapers</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="5">
+                        <item id="research_paper2">
+                            <title>$EXPEDITION_ITEM_RESEARCH_PAPER2_TITLE</title>
+                            <region>ui-archeology-research-papers</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPER2_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPER2_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPER2_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPER2_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="5">
+                        <item id="encrypted_hdd">
+                            <title>$EXPEDITION_ITEM_ENCRYPTED_HDD_TITLE</title>
+                            <region>ui-archeology-HDD</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ENCRYPTED_HDD_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ENCRYPTED_HDD_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ENCRYPTED_HDD_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ENCRYPTED_HDD_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="400" order="6">
+                        <item id="earth_core_picture">
+                            <title>$EXPEDITION_ITEM_EARTH_CORE_PICTURE_TITLE</title>
+                            <region>ui-archeology-diagram-of-earth-core</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_RESEARCH_PAPER2_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_EARTH_CORE_PICTURE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_EARTH_CORE_PICTURE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_EARTH_CORE_PICTURE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="where_they_went">
+                <title>$CAVE_POST_MODERN_CAVE_WHERE_THEY_WENT_TITLE</title>
+                <region>ui-archeology-the-gate</region>
+                <description>$CAVE_POST_MODERN_CAVE_WHERE_THEY_WENT_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="200" order="5">
+                        <item id="arc_industries_logo">
+                            <title>$EXPEDITION_ITEM_ARC_INDUSTRIES_LOGO_TITLE</title>
+                            <region>ui-archeology-arc-logo</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ARC_INDUSTRIES_LOGO_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ARC_INDUSTRIES_LOGO_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ARC_INDUSTRIES_LOGO_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ARC_INDUSTRIES_LOGO_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="6">
+                        <item id="newspaper_mary_ann">
+                            <title>$EXPEDITION_ITEM_NEWSPAPER_TITLE</title>
+                            <region>ui-archeology-newspapers</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_MARY_ANN_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_MARY_ANN_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_MARY_ANN_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_NEWSPAPER_MARY_ANN_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="7">
+                        <item id="cassette_mary_an_one">
+                            <title>$EXPEDITION_ITEM_CASSETTE_MARY_AN_ONE_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_ONE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_ONE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_ONE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_ONE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="200" order="7">
+                        <item id="cassette_mary_an_two">
+                            <title>$EXPEDITION_ITEM_CASSETTE_MARY_AN_TWO_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_TWO_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_TWO_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_TWO_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_MARY_AN_TWO_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="400" order="8">
+                        <item id="the_arc_gate">
+                            <title>$EXPEDITION_ITEM_THE_ARC_GATE_TITLE</title>
+                            <region>ui-archeology-the-gate</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_THE_ARC_GATE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_THE_ARC_GATE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_THE_ARC_GATE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_THE_ARC_GATE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+        </discoveries>
+    </cave>
+    <cave segment="52" id="portal_cave">
+        <costsMap>
+            <cost order="0">4000</cost>
+            <cost order="1">10000</cost>
+            <cost order="2">20000</cost>
+            <cost order="3">30000</cost>
+            <cost order="4">40000</cost>
+            <cost order="5">50000</cost>
+            <cost order="6">100000</cost>
+        </costsMap>
+        <title>$CAVE_PORTAL_CAVE_TITLE</title>
+        <description>$CAVE_PORTAL_CAVE_DESC</description>
+        <entrancetext>$EXPEDITION_INIT_TEXT</entrancetext>
+        <discoveries>
+            <discovery id="akhenaten">
+                <title>$CAVE_PORTAL_CAVE_AKHENATEN_TITLE</title>
+                <region>ui-archeology-face-of-akhenaten</region>
+                <description>$CAVE_PORTAL_CAVE_AKHENATEN_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="10" order="1">
+                        <item id="ankh">
+                            <title>$EXPEDITION_ITEM_ANKH_TITLE</title>
+                            <region>ui-archeology-egyption-ankh</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ANKH_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ANKH_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ANKH_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ANKH_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="1">
+                        <item id="tawaret">
+                            <title>$EXPEDITION_ITEM_TAWARET_TITLE</title>
+                            <region>ui-archeology-tawaret</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_TAWARET_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_TAWARET_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_TAWARET_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_TAWARET_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="1">
+                        <item id="writings">
+                            <title>$EXPEDITION_ITEM_WRITINGS_TITLE</title>
+                            <region>ui-archeology-last-order</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_WRITINGS_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_WRITINGS_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_WRITINGS_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_WRITINGS_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="70" order="1">
+                        <item id="papyrus_journal">
+                            <title>$EXPEDITION_ITEM_PAPYRUS_JOURNAL_TITLE</title>
+                            <region>ui-archeology-papyrus-journal</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_PAPYRUS_JOURNAL_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_PAPYRUS_JOURNAL_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_PAPYRUS_JOURNAL_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_PAPYRUS_JOURNAL_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50" order="2">
+                        <item id="akhenaten">
+                            <title>$CAVE_PORTAL_CAVE_AKHENATEN_TITLE</title>
+                            <region>ui-archeology-face-of-akhenaten</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_AKHENATEN_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_AKHENATEN_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_AKHENATEN_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_AKHENATEN_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="the_beacon">
+                <title>$CAVE_PORTAL_CAVE_THE_BEACON_TITLE</title>
+                <region>ui-archeology-the-beacon</region>
+                <description>$CAVE_PORTAL_CAVE_THE_BEACON_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100" order="0">
+                        <item id="crates">
+                            <title>$EXPEDITION_ITEM_CRATES_TITLE</title>
+                            <region>ui-archeology-camp-photo</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CRATES_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CRATES_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CRATES_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CRATES_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="time_map">
+                            <title>$EXPEDITION_ITEM_TIME_MAP_TITLE</title>
+                            <region>ui-archeology-time-map</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_TIME_MAP_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_TIME_MAP_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_TIME_MAP_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_TIME_MAP_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="assault_rifle">
+                            <title>$EXPEDITION_ITEM_ASSAULT_RIFLE_TITLE</title>
+                            <region>ui-archeology-assault-rifle</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ASSAULT_RIFLE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ASSAULT_RIFLE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ASSAULT_RIFLE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ASSAULT_RIFLE_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="300" order="2">
+                        <item id="time_crystal">
+                            <title>$EXPEDITION_ITEM_TIME_CRYSTAL_TITLE</title>
+                            <region>ui-archeology-time-crystal</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_TIME_CRYSTAL_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_TIME_CRYSTAL_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_TIME_CRYSTAL_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_TIME_CRYSTAL_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="the_beacon">
+                            <title>$CAVE_PORTAL_CAVE_THE_BEACON_TITLE</title>
+                            <region>ui-archeology-the-beacon</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_THE_BEACON_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_THE_BEACON_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_THE_BEACON_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_THE_BEACON_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="the_last_order">
+                <title>$CAVE_PORTAL_CAVE_THE_LAST_ORDER_TITLE</title>
+                <region>ui-archeology-minkowski</region>
+                <description>$CAVE_PORTAL_CAVE_MODERN_LAST_ORDER_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="von_neumann">
+                            <title>$EXPEDITION_ITEM_VON_NEUMANN_TITLE</title>
+                            <region>ui-archeology-von-neuman</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_VON_NEUMANN_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_VON_NEUMANN_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_VON_NEUMANN_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_VON_NEUMANN_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="minkowski">
+                            <title>$EXPEDITION_ITEM_MINKOWSKI_TITLE</title>
+                            <region>ui-archeology-minkowski</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MINKOWSKI_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MINKOWSKI_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MINKOWSKI_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MINKOWSKI_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="4">
+                        <item id="manifesto">
+                            <title>$EXPEDITION_ITEM_MANIFESTO_TITLE</title>
+                            <region>ui-archeology-manifesto</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MANIFESTO_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MANIFESTO_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MANIFESTO_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MANIFESTO_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="5">
+                        <item id="mary_ann_cassette_1">
+                            <title>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_1_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_1_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_1_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_1_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_1_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="300" order="6">
+                        <item id="mary_ann_cassette_2">
+                            <title>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_2_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_2_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_2_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_2_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MARY_ANN_CASSETTE_2_LAST_PAGE</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+        </discoveries>
+    </cave>
+    <cave segment="88" id="cambrian_door">
+        <costsMap>
+            <cost order="0">900000</cost>
+            <cost order="1">1000000</cost>
+            <cost order="2">1200000</cost>
+            <cost order="3">1400000</cost>
+            <cost order="4">1600000</cost>
+            <cost order="5">1800000</cost>
+            <cost order="6">2000000</cost>
+        </costsMap>
+        <title>$CAVE_CAMBRIAN_DOOR_TITLE</title>
+        <description>$CAVE_CAMBRIAN_DOOR_DESC</description>
+        <entrancetext>$EXPEDITION_INIT_TEXT</entrancetext>
+        <discoveries>
+            <discovery id="system_failure">
+                <title>$CAVE_CAMBRIAN_DOOR_SYSTEM_FAILURE_TITLE</title>
+                <region>ui-archeology-beacon-with-screen</region>
+                <description>$CAVE_CAMBRIAN_DOOR_SYSTEM_FAILURE_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="10000" order="1">
+                        <item id="cassette_tape1">
+                            <title>$EXPEDITION_ITEM_CASSETTE_TAPE1_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE1_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE1_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE1_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE1_STORY_PAGE_4</page>
+                        </story>
+                        <media>vox_mary_ann_01</media>
+                    </expedition>
+                    <expedition duration="5" cost="50000" order="1">
+                        <item id="camp">
+                            <title>$EXPEDITION_ITEM_CAMP_TITLE</title>
+                            <region>ui-archeology-camp</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CAMP_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CAMP_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CAMP_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CAMP_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50000" order="1">
+                        <item id="anomalocaris">
+                            <title>$EXPEDITION_ITEM_ANOMALOCARIS_TITLE</title>
+                            <region>ui-archeology-anomalocaris</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ANOMALOCARIS_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ANOMALOCARIS_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ANOMALOCARIS_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ANOMALOCARIS_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50000" order="1">
+                        <item id="making-of-portal">
+                            <title>$EXPEDITION_ITEM_MAKING-OF-PORTAL_TITLE</title>
+                            <region>ui-archeology-making-of-portal</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MAKING-OF-PORTAL_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MAKING-OF-PORTAL_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MAKING-OF-PORTAL_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MAKING-OF-PORTAL_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100000" order="2">
+                        <item id="beacon-with-screen">
+                            <title>$CAVE_CAMBRIAN_DOOR_SYSTEM_FAILURE_TITLE</title>
+                            <region>ui-archeology-beacon-with-screen</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_BEACON-WITH-SCREEN_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_BEACON-WITH-SCREEN_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_BEACON-WITH-SCREEN_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_BEACON-WITH-SCREEN_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="hi_mom">
+                <title>$EXPEDITION_ITEM_CAMP_TITLE</title>
+                <region>ui-archeology-fish</region>
+                <description>$CAVE_CAMBRIAN_DOOR_HI_MOM_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100" order="0">
+                        <item id="myllokunmingia">
+                            <title>$EXPEDITION_ITEM_MYLLOKUNMINGIA_TITLE</title>
+                            <region>ui-archeology-myllokunmingia</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MYLLOKUNMINGIA_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MYLLOKUNMINGIA_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MYLLOKUNMINGIA_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MYLLOKUNMINGIA_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="fuxianhuia">
+                            <title>$EXPEDITION_ITEM_FUXIANHUIA_TITLE</title>
+                            <region>ui-archeology-fuxianhuia</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_FUXIANHUIA_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_FUXIANHUIA_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_FUXIANHUIA_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_FUXIANHUIA_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="the-moon">
+                            <title>$EXPEDITION_ITEM_THE-MOON_TITLE</title>
+                            <region>ui-archeology-the-moon</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_THE-MOON_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_THE-MOON_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_THE-MOON_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_THE-MOON_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="300" order="2">
+                        <item id="fish">
+                            <title>$EXPEDITION_ITEM_FISH_TITLE</title>
+                            <region>ui-archeology-fish</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_FISH_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_FISH_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_FISH_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_FISH_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="cassette_tape2">
+                            <title>$EXPEDITION_ITEM_CASSETTE_TAPE2_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE2_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE2_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE2_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE2_STORY_PAGE_4</page>
+                        </story>
+                        <media>vox_mary_ann_02</media>
+                    </expedition>
+                </expeditions>
+            </discovery>
+            <discovery id="self_replicating_ai">
+                <title>$CAVE_CAMBRIAN_DOOR_SELF_REPLICATING_AI_TITLE</title>
+                <region>ui-archeology-cassette</region>
+                <description>$CAVE_CAMBRIAN_DOOR_SELF_REPLICATING_AI_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100" order="2">
+                        <item id="family-photo">
+                            <title>$EXPEDITION_ITEM_FAMILY-PHOTO_TITLE</title>
+                            <region>ui-archeology-family-photo</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_FAMILY-PHOTO_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_FAMILY-PHOTO_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_FAMILY-PHOTO_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_FAMILY-PHOTO_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="3">
+                        <item id="nuclear-fusion">
+                            <title>$EXPEDITION_ITEM_NUCLEAR-FUSION_TITLE</title>
+                            <region>ui-archeology-nuclear-fusion</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_NUCLEAR-FUSION_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_NUCLEAR-FUSION_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_NUCLEAR-FUSION_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_NUCLEAR-FUSION_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="4">
+                        <item id="engine-parts">
+                            <title>$EXPEDITION_ITEM_ENGINE-PARTS_TITLE</title>
+                            <region>ui-archeology-engine-parts</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_ENGINE-PARTS_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_ENGINE-PARTS_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_ENGINE-PARTS_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_ENGINE-PARTS_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100" order="5">
+                        <item id="the-graves">
+                            <title>$EXPEDITION_ITEM_THE-GRAVES_TITLE</title>
+                            <region>ui-archeology-the-graves</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_THE-GRAVES_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_THE-GRAVES_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_THE-GRAVES_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_THE-GRAVES_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="300" order="6">
+                        <item id="cassette_tape3">
+                            <title>$EXPEDITION_ITEM_CASSETTE_TAPE3_TITLE</title>
+                            <region>ui-archeology-cassette</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE3_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE3_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE3_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_CASSETTE_TAPE3_STORY_PAGE_4</page>
+                        </story>
+                        <media>vox_mary_ann_03</media>
+                    </expedition>
+                </expeditions>
+            </discovery>
+        </discoveries>
+    </cave>
+    <cave segment="113" id="iron-expedition">
+        <costsMap>
+            <cost order="0">900000</cost>
+            <cost order="1">1000000</cost>
+            <cost order="2">1200000</cost>
+            <cost order="3">1400000</cost>
+            <cost order="4">1600000</cost>
+            <cost order="5">1800000</cost>
+            <cost order="6">2000000</cost>
+        </costsMap>
+        <title>$CAVE_IRON_EXPEDITION_TITLE</title>
+        <description>$CAVE_IRON_EXPEDITION_DESC</description>
+        <entrancetext>$T_EXPEDITION_TEXT_DECODING</entrancetext>
+        <discoveries>
+            <discovery id="introduction">
+                <title>$CAVE_IRON_EXPEDITION_INTRODUCTION_TITLE</title>
+                <region>ui-archeology-card-turquoise</region>
+                <description>$CAVE_IRON_EXPEDITION_INTRODUCTION_DESC</description>
+                <reward>10</reward>
+                <expeditions>
+                    <expedition duration="5" cost="100000" order="1">
+                        <item id="memory-card-blue">
+                            <title>$CAVE_IRON_EXPEDITION_INTRODUCTION_TITLE</title>
+                            <region>ui-archeology-memory-card-blue</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_BLUE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_BLUE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_BLUE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_BLUE_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="150000" order="2">
+                        <item id="memory-card-gray">
+                            <title>$EXPEDITION_ITEM_MEMORY_CARD_GRAY_TITLE</title>
+                            <region>ui-archeology-memory-card-gray</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GRAY_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GRAY_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GRAY_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GRAY_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50000" order="3">
+                        <item id="memory-card-green">
+                            <title>$EXPEDITION_ITEM_MEMORY_CARD_GREEN_TITLE</title>
+                            <region>ui-archeology-memory-card-green</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GREEN_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GREEN_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GREEN_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_GREEN_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="50000" order="4">
+                        <item id="memory-card-purple">
+                            <title>$EXPEDITION_ITEM_MEMORY_CARD_PURPLE_TITLE</title>
+                            <region>ui-archeology-memory-card-purple</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_PURPLE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_PURPLE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_PURPLE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_PURPLE_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                    <expedition duration="5" cost="100000" order="5">
+                        <item id="memory-card-turquoise">
+                            <title>$EXPEDITION_ITEM_MEMORY_CARD_TURQUOISE_TITLE</title>
+                            <region>ui-archeology-memory-card-turquoise</region>
+                        </item>
+                        <story>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_TURQUOISE_STORY_PAGE_1</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_TURQUOISE_STORY_PAGE_2</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_TURQUOISE_STORY_PAGE_3</page>
+                            <page>$EXPEDITION_ITEM_MEMORY_CARD_TURQUOISE_STORY_PAGE_4</page>
+                        </story>
+                    </expedition>
+                </expeditions>
+            </discovery>
+        </discoveries>
+    </cave>
+</caves>

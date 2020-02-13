@@ -1,0 +1,126 @@
+<chest_listings>
+    <chest_listing id="basic" cost="0">
+        <name>$CHEST_LISTING_BASIC_NAME</name>
+        <desc>$CHEST_LISTING_BASIC_DESC</desc>
+        <chest type="basic">
+            <region>ui-shop-basic-chest</region>
+            <chasteId>chest</chasteId>
+            <spineName>chest-normal</spineName>
+            <params>
+                <matQuantity>30</matQuantity>
+                <rareProb>10</rareProb>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="mini" cost="5">
+        <name>$CHEST_LISTING_MINI_NAME</name>
+        <desc>$CHEST_LISTING_MINI_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-rare-chest</region>
+            <chasteId>mini</chasteId>
+            <spineName>chest-normal</spineName>
+            <params>
+                <rareQuantity>1</rareQuantity>
+                <priceKey>shop_mini_chest_price</priceKey>
+                <salePriceKey>shop_mini_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="mini-plus" cost="12">
+        <name>$CHEST_LISTING_MINI_PLUS_NAME</name>
+        <desc>$CHEST_LISTING_MINI_PLUS_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-rare-chest</region>
+            <chasteId>mini-plus</chasteId>
+            <spineName>chest-normal</spineName>
+            <params>
+                <rareQuantity>3</rareQuantity>
+                <priceKey>shop_mini_plus_chest_price</priceKey>
+                <salePriceKey>shop_mini_plus_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="rare" cost="17">
+        <name>$CHEST_LISTING_RARE_NAME</name>
+        <desc>$CHEST_LISTING_RARE_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-rare-chest</region>
+            <chasteId>rare</chasteId>
+            <spineName>chest-rare</spineName>
+            <params>
+                <rareQuantity>5</rareQuantity>
+                <priceKey>shop_rare_chest_price</priceKey>
+                <salePriceKey>shop_rare_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="rare-plus" cost="32">
+        <name>$CHEST_LISTING_RARE_PLUS_NAME</name>
+        <desc>$CHEST_LISTING_RARE_PLUS_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-rare-chest</region>
+            <chasteId>rare-plus</chasteId>
+            <spineName>chest-rare</spineName>
+            <params>
+                <rareQuantity>10</rareQuantity>
+                <priceKey>shop_rare_plus_chest_price</priceKey>
+                <salePriceKey>shop_rare_plus_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="legendary" cost="60">
+        <name>$CHEST_LISTING_LEGENDARY_NAME</name>
+        <desc>$CHEST_LISTING_LEGENDARY_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-legendary-chest</region>
+            <chasteId>legendary</chasteId>
+            <spineName>chest-awesome</spineName>
+            <params>
+                <rareQuantity>20</rareQuantity>
+                <priceKey>shop_legendary_chest_price</priceKey>
+                <salePriceKey>shop_legendary_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="legendary-plus" cost="60">
+        <name>$CHEST_LISTING_LEGENDARY_PLUS_NAME</name>
+        <desc>$CHEST_LISTING_LEGENDARY_PLUS_DESC</desc>
+        <chest type="rare">
+            <region>ui-shop-legendary-chest</region>
+            <chasteId>legendary-plus</chasteId>
+            <spineName>chest-awesome</spineName>
+            <params>
+                <rareQuantity>40</rareQuantity>
+                <priceKey>shop_legendary_plus_chest_price</priceKey>
+                <salePriceKey>shop_legendary_plus_chest_sale_price</salePriceKey>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="fat-basic" cost="0">
+        <name>$CHEST_LISTING_BASIC_NAME</name>
+        <desc>$CHEST_LISTING_BASIC_DESC</desc>
+        <chest type="basic">
+            <region>ui-shop-basic-chest</region>
+            <chasteId>fat-basic</chasteId>
+            <spineName>chest-normal</spineName>
+            <params>
+                <matQuantity>100</matQuantity>
+                <rareProb>10</rareProb>
+            </params>
+        </chest>
+    </chest_listing>
+    <chest_listing id="guild-chest" cost="0">
+        <name>$CHEST_LISTING_GUILD_NAME</name>
+        <desc>$CHEST_LISTING_GUILD_DESC</desc>
+        <chest type="guild">
+            <region>ui-guild-chest</region>
+            <chasteId>guild-chest</chasteId>
+            <spineName>chest-guild</spineName>
+            <params>
+                <rareQuantityMin>1</rareQuantityMin>
+                <rareQuantityMax>3</rareQuantityMax>
+                <matQuantity>30</matQuantity>
+            </params>
+        </chest>
+    </chest_listing>
+</chest_listings>

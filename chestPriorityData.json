@@ -1,0 +1,41 @@
+[{
+    "id": "basic",
+    "priority": 0,
+    "key": "TXT_CHEST_BASIC"
+}, {
+    "id": "fat-basic",
+    "priority": 1,
+    "key": "TXT_CHEST_FAT_BASIC"
+}, {
+    "id": "custom",
+    "priority": 2,
+    "key": "TXT_CHEST_CUSTOM"
+}, {
+    "id": "guild-chest",
+    "priority": 3,
+    "key": "TXT_CHEST_GUILDCHEST"
+}, {
+    "id": "mini",
+    "priority": 4,
+    "key": "TXT_CHEST_MINI"
+}, {
+    "id": "mini-plus",
+    "priority": 5,
+    "key": "TXT_CHEST_MINI_PLUS"
+}, {
+    "id": "rare",
+    "priority": 6,
+    "key": "TXT_CHEST_RARE"
+}, {
+    "id": "rare-plus",
+    "priority": 7,
+    "key": "TXT_CHEST_RARE_PLUS"
+}, {
+    "id": "legendary",
+    "priority": 8,
+    "key": "TXT_CHEST_LEGENDARY"
+}, {
+    "id": "legendary",
+    "priority": 9,
+    "key": "TXT_CHEST_LEGENDARY"
+}]

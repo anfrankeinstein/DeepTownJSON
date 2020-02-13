@@ -1,0 +1,447 @@
+[
+  {
+    "name": "badge1",
+    "title": "badge1",
+    "region": "ui-social-argentina"
+  },
+  {
+    "name": "badge2",
+    "title": "badge2",
+    "region": "ui-social-armenia"
+  },
+  {
+    "name": "badge3",
+    "title": "badge3",
+    "region": "ui-social-australia"
+  },
+  {
+    "name": "badge4",
+    "title": "badge4",
+    "region": "ui-social-austria"
+  },
+  {
+    "name": "badge5",
+    "title": "badge5",
+    "region": "ui-social-belgium"
+  },
+  {
+    "name": "badge6",
+    "title": "badge6",
+    "region": "ui-social-brazil"
+  },
+  {
+    "name": "badge7",
+    "title": "badge7",
+    "region": "ui-social-bulgaria"
+  },
+  {
+    "name": "badge8",
+    "title": "badge8",
+    "region": "ui-social-canada"
+  },
+  {
+    "name": "badge9",
+    "title": "badge9",
+    "region": "ui-social-china"
+  },
+  {
+    "name": "badge10",
+    "title": "badge10",
+    "region": "ui-social-coin-blue"
+  },
+  {
+    "name": "badge11",
+    "title": "badge11",
+    "region": "ui-social-coin-purple"
+  },
+  {
+    "name": "badge12",
+    "title": "badge12",
+    "region": "ui-social-coin-red"
+  },
+  {
+    "name": "badge13",
+    "title": "badge13",
+    "region": "ui-social-coin-silver"
+  },
+  {
+    "name": "badge14",
+    "title": "badge14",
+    "region": "ui-social-coin-turquoise"
+  },
+  {
+    "name": "badge15",
+    "title": "badge15",
+    "region": "ui-social-coin-yellow"
+  },
+  {
+    "name": "badge16",
+    "title": "badge16",
+    "region": "ui-social-croatia"
+  },
+  {
+    "name": "badge17",
+    "title": "badge17",
+    "region": "ui-social-cyprus"
+  },
+  {
+    "name": "badge18",
+    "title": "badge18",
+    "region": "ui-social-czech-republic"
+  },
+  {
+    "name": "badge19",
+    "title": "badge19",
+    "region": "ui-social-denmark"
+  },
+  {
+    "name": "badge20",
+    "title": "badge20",
+    "region": "ui-social-diamond -purple"
+  },
+  {
+    "name": "badge21",
+    "title": "badge21",
+    "region": "ui-social-diamond- -blue"
+  },
+  {
+    "name": "badge22",
+    "title": "badge22",
+    "region": "ui-social-diamond- -silver"
+  },
+  {
+    "name": "badge23",
+    "title": "badge23",
+    "region": "ui-social-diamond-red"
+  },
+  {
+    "name": "badge24",
+    "title": "badge24",
+    "region": "ui-social-diamond-turquoise"
+  },
+  {
+    "name": "badge25",
+    "title": "badge25",
+    "region": "ui-social-diamond-yellow"
+  },
+  {
+    "name": "badge26",
+    "title": "badge26",
+    "region": "ui-social-england"
+  },
+  {
+    "name": "badge27",
+    "title": "badge27",
+    "region": "ui-social-estonia"
+  },
+  {
+    "name": "badge28",
+    "title": "badge28",
+    "region": "ui-social-european-union"
+  },
+  {
+    "name": "badge29",
+    "title": "badge29",
+    "region": "ui-social-finland"
+  },
+  {
+    "name": "badge30",
+    "title": "badge30",
+    "region": "ui-social-france"
+  },
+  {
+    "name": "badge31",
+    "title": "badge31",
+    "region": "ui-social-gear-blue"
+  },
+  {
+    "name": "badge32",
+    "title": "badge32",
+    "region": "ui-social-gear-purple"
+  },
+  {
+    "name": "badge33",
+    "title": "badge33",
+    "region": "ui-social-gear-red"
+  },
+  {
+    "name": "badge34",
+    "title": "badge34",
+    "region": "ui-social-gear-silver"
+  },
+  {
+    "name": "badge35",
+    "title": "badge35",
+    "region": "ui-social-gear-turquoise"
+  },
+  {
+    "name": "badge36",
+    "title": "badge36",
+    "region": "ui-social-gear-yellow"
+  },
+  {
+    "name": "badge37",
+    "title": "badge37",
+    "region": "ui-social-georgia"
+  },
+  {
+    "name": "badge38",
+    "title": "badge38",
+    "region": "ui-social-germany"
+  },
+  {
+    "name": "badge39",
+    "title": "badge39",
+    "region": "ui-social-greece"
+  },
+  {
+    "name": "badge40",
+    "title": "badge40",
+    "region": "ui-social-iceland"
+  },
+  {
+    "name": "badge41",
+    "title": "badge41",
+    "region": "ui-social-ireland"
+  },
+  {
+    "name": "badge42",
+    "title": "badge42",
+    "region": "ui-social-italy"
+  },
+  {
+    "name": "badge43",
+    "title": "badge43",
+    "region": "ui-social-japan"
+  },
+  {
+    "name": "badge44",
+    "title": "badge44",
+    "region": "ui-social-latvia"
+  },
+  {
+    "name": "badge45",
+    "title": "badge45",
+    "region": "ui-social-lithuania"
+  },
+  {
+    "name": "badge46",
+    "title": "badge46",
+    "region": "ui-social-luxembourg"
+  },
+  {
+    "name": "badge47",
+    "title": "badge47",
+    "region": "ui-social-mexico"
+  },
+  {
+    "name": "badge48",
+    "title": "badge48",
+    "region": "ui-social-morocco"
+  },
+  {
+    "name": "badge49",
+    "title": "badge49",
+    "region": "ui-social-netherlands"
+  },
+  {
+    "name": "badge50",
+    "title": "badge50",
+    "region": "ui-social-new-zealand"
+  },
+  {
+    "name": "badge51",
+    "title": "badge51",
+    "region": "ui-social-portugal"
+  },
+  {
+    "name": "badge52",
+    "title": "badge52",
+    "region": "ui-social-republic-of-poland"
+  },
+  {
+    "name": "badge53",
+    "title": "badge53",
+    "region": "ui-social-romania"
+  },
+  {
+    "name": "badge54",
+    "title": "badge54",
+    "region": "ui-social-russia"
+  },
+  {
+    "name": "badge55",
+    "title": "badge55",
+    "region": "ui-social-serbia"
+  },
+  {
+    "name": "badge56",
+    "title": "badge56",
+    "region": "ui-social-shield-blue"
+  },
+  {
+    "name": "badge57",
+    "title": "badge57",
+    "region": "ui-social-shield-purple"
+  },
+  {
+    "name": "badge58",
+    "title": "badge58",
+    "region": "ui-social-shield-red"
+  },
+  {
+    "name": "badge59",
+    "title": "badge59",
+    "region": "ui-social-shield-silver"
+  },
+  {
+    "name": "badge60",
+    "title": "badge60",
+    "region": "ui-social-shield-turquoise"
+  },
+  {
+    "name": "badge61",
+    "title": "badge61",
+    "region": "ui-social-shield-yellow"
+  },
+  {
+    "name": "badge62",
+    "title": "badge62",
+    "region": "ui-social-singapore"
+  },
+  {
+    "name": "badge63",
+    "title": "badge63",
+    "region": "ui-social-slovakia"
+  },
+  {
+    "name": "badge64",
+    "title": "badge64",
+    "region": "ui-social-slovenia"
+  },
+  {
+    "name": "badge65",
+    "title": "badge65",
+    "region": "ui-social-south-africa"
+  },
+  {
+    "name": "badge66",
+    "title": "badge66",
+    "region": "ui-social-south-korea"
+  },
+  {
+    "name": "badge67",
+    "title": "badge67",
+    "region": "ui-social-spain"
+  },
+  {
+    "name": "badge68",
+    "title": "badge68",
+    "region": "ui-social-star-blue"
+  },
+  {
+    "name": "badge69",
+    "title": "badge69",
+    "region": "ui-social-star-purple"
+  },
+  {
+    "name": "badge70",
+    "title": "badge70",
+    "region": "ui-social-star-red"
+  },
+  {
+    "name": "badge71",
+    "title": "badge71",
+    "region": "ui-social-star-silver"
+  },
+  {
+    "name": "badge72",
+    "title": "badge72",
+    "region": "ui-social-star-turquoise"
+  },
+  {
+    "name": "badge73",
+    "title": "badge73",
+    "region": "ui-social-star-yellow"
+  },
+  {
+    "name": "badge74",
+    "title": "badge74",
+    "region": "ui-social-sweden"
+  },
+  {
+    "name": "badge75",
+    "title": "badge75",
+    "region": "ui-social-switzerland"
+  },
+  {
+    "name": "badge76",
+    "title": "badge76",
+    "region": "ui-social-ukraine"
+  },
+  {
+    "name": "badge77",
+    "title": "badge77",
+    "region": "ui-social-united-kingdom"
+  },
+  {
+    "name": "badge78",
+    "title": "badge78",
+    "region": "ui-social-united-states-of-america"
+  },
+  {
+    "name": "badge79",
+    "title": "badge79",
+    "region": "ui-social-uruguay"
+  },
+  {
+    "name": "badge80",
+    "title": "badge80",
+    "region": "ui-social-venezuela"
+  },
+  {
+    "name": "badge81",
+    "title": "badge81",
+    "region": "ui-social-vietnam"
+  },
+  {
+    "name": "badge82",
+    "title": "badge82",
+    "region": "ui-social-turkey"
+  },
+  {
+    "name": "badge83",
+    "title": "badge83",
+    "region": "ui-social-egypt"
+  },
+  {
+    "name": "badge84",
+    "title": "badge84",
+    "region": "ui-social-india"
+  },
+  {
+    "name": "badge85",
+    "title": "badge85",
+    "region": "ui-social-indonesia"
+  },
+  {
+    "name": "badge86",
+    "title": "badge86",
+    "region": "ui-social-lgbt"
+  },
+  {
+    "name": "badge87",
+    "title": "badge87",
+    "region": "ui-social-syria"
+  },
+  {
+    "name": "badge88",
+    "title": "badge88",
+    "region": "ui-social-taiwan"
+  },
+  {
+    "name": "badge89",
+    "title": "badge89",
+    "region": "ui-social-thailand"
+  }
+]

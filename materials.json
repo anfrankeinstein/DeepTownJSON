@@ -1,0 +1,1887 @@
+{
+    "materials": [{
+        "name": "dirt",
+        "title": "$MATERIAL_DIRT_TITLE",
+        "tags": ["dirt"],
+        "hp": 1
+    }, {
+        "name": "dust",
+        "title": "$MATERIAL_DUST_TITLE",
+        "tags": ["dust"],
+        "description": "$MATERIAL_DUST_DESC"
+    }, {
+        "name": "water-barell",
+        "title": "$MATERIAL_WATER_BARELL_TITLE",
+        "tags": ["chem-material", "exchangeable", "common", "mega", "ultra"],
+        "cost": 5,
+        "description": "$MATERIAL_WATER_BARELL_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "hydrogen",
+        "title": "$MATERIAL_HYDROGEN_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "mega", "ultra"],
+        "cost": 400,
+        "description": "$MATERIAL_HYDROGEN_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "oxygen",
+        "title": "$MATERIAL_OXYGEN_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 900,
+        "description": "$MATERIAL_HYDROGEN_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "nitrogen",
+        "title": "$MATERIAL_NITROGEN_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "common", "mega"],
+        "cost": 300,
+        "description": "$MATERIAL_NITROGEN_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "liquid-nitrogen",
+        "title": "$MATERIAL_LIQUID_NITROGEN_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 12500,
+        "description": "$MATERIAL_LIQUID_NITROGEN_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "flask-hcl",
+        "title": "$MATERIAL_FLASK_HCL_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable"],
+        "cost": 12000,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "flask-water",
+        "title": "$MATERIAL_FLASK_WATER_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "mega", "ultra"],
+        "cost": 1200,
+        "description": "$MATERIAL_HYDROGEN_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "rubber",
+        "title": "$MATERIAL_RUBBER_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 4000,
+        "description": "$MATERIAL_RUBBER_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "flask-sulfuric-acid",
+        "title": "$MATERIAL_FLASK_SULFURIC_ACID_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "mega", "ultra"],
+        "cost": 3500,
+        "description": "$MATERIAL_FLASK_SULFURIC_ACID_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "seawater",
+        "title": "$MATERIAL_SEAWATER_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "ultra"],
+        "hp": 3,
+        "cost": 4900,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "flora-defender",
+        "title": "$MATERIAL_FLORA_DEFENDER_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "mega", "ultra"],
+        "hp": 3,
+        "cost": 5000,
+        "description": "$MATERIAL_FLORA_DEFENDER_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "sulfur",
+        "title": "$MATERIAL_SULFUR_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "common", "mega"],
+        "cost": 100,
+        "description": "$MATERIAL_SULFUR_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "silicon",
+        "title": "$MATERIAL_SILICON_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "common", "mega"],
+        "cost": 100,
+        "description": "$MATERIAL_SULFUR_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "sodium",
+        "title": "$MATERIAL_SODIUM_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "common", "mega"],
+        "cost": 100,
+        "description": "$MATERIAL_SULFUR_DESC",
+        "unlockSegment": 72
+    }, {
+        "name": "aluminium-bottle-ethanol",
+        "title": "$MATERIAL_ALUMINIUM_BOTTLE_ETHANOL_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 4200,
+        "description": "$MATERIAL_ETHANOL_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "flask-clear-oil",
+        "title": "$MATERIAL_FLASK_CLEAR_OIL_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 16500,
+        "description": "$MATERIAL_FLASK_CLEAR_OIL_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "he-3",
+        "title": "$MATERIAL_HE_3_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable"],
+        "cost": 190000,
+        "description": "$MATERIAL_FLASK_CLEAR_OIL_DESC",
+        "unlockSegment": 109
+    }, {
+        "name": "plastic",
+        "title": "$MATERIAL_PLASTIC_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 40000,
+        "description": "$MATERIAL_PLASTIC_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "titanium",
+        "title": "$MATERIAL_TITANIUM_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "metal", "mega", "common", "ultra"],
+        "cost": 260,
+        "description": "$MATERIAL_TITANIUM_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "diethyl-alcohol",
+        "title": "$MATERIAL_DIETHYL_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 17000,
+        "description": "$MATERIAL_DIETHYL_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "enriched-uranium",
+        "title": "$MATERIAL_ENRICHED_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 17000,
+        "description": "$MATERIAL_ENRICHED_DESC",
+        "unlockSegment": 84
+    }, {
+        "name": "gunpowder",
+        "title": "$MATERIAL_GUNPOWDER_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "mega", "ultra"],
+        "cost": 2500,
+        "description": "$MATERIAL_GUNPOWDER_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "glass",
+        "title": "$MATERIAL_GLASS_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 450,
+        "description": "$MATERIAL_GLASS_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "wood",
+        "title": "$MATERIAL_WOOD_TITLE",
+        "tags": ["organic", "exchangeable", "ultra"],
+        "cost": 193
+    }, {
+        "name": "seed",
+        "title": "$MATERIAL_SEED_TITLE",
+        "tags": ["organic", "exchangeable"],
+        "cost": 10,
+        "description": "$MATERIAL_SEED_DESC"
+    }, {
+        "name": "grape-seed",
+        "title": "$MATERIAL_GRAPE_SEED_TITLE",
+        "tags": ["organic", "exchangeable"],
+        "cost": 1200,
+        "description": "$MATERIAL_GRAPE_SEED_DESC",
+        "unlockSegment": 62
+    }, {
+        "name": "pine-seed",
+        "title": "$MATERIAL_PINE_SEED_TITLE",
+        "tags": ["organic", "exchangeable", "ultra"],
+        "cost": 11000,
+        "description": "$MATERIAL_PINE_SEED_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "grape",
+        "title": "$MATERIAL_GRAPE_TITLE",
+        "tags": ["organic", "exchangeable", "mega", "ultra"],
+        "cost": 1500,
+        "description": "$MATERIAL_GRAPE_DESC",
+        "unlockSegment": 62
+    }, {
+        "name": "liana-seed",
+        "title": "$MATERIAL_LIANA_SEED_TITLE",
+        "tags": ["organic", "exchangeable"],
+        "cost": 1000,
+        "description": "$MATERIAL_LIANA_SEED_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "liana",
+        "title": "$MATERIAL_LIANA_TITLE",
+        "tags": ["organic", "exchangeable", "mega", "ultra"],
+        "cost": 1700,
+        "description": "$MATERIAL_LIANA_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "pine",
+        "title": "$MATERIAL_PINE_TITLE",
+        "tags": ["organic", "exchangeable", "mega", "ultra"],
+        "cost": 35000,
+        "description": "$MATERIAL_PINE_TITLE_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "coal",
+        "title": "$MATERIAL_COAL_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common", "mega", "ultra"],
+        "hp": 3,
+        "cost": 100000
+    }, {
+        "name": "magnetite-ore",
+        "title": "$MATERIAL_MAGNETITE_ORE_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "ultra"],
+        "hp": 3,
+        "cost": 12500,
+        "unlockSegment": 109
+    }, {
+        "name": "luteium",
+        "title": "$MATERIAL_LUTETIUM_TITLE",
+        "tags": ["asteroid", "exchangeable", "ore"],
+        "hp": 3,
+        "cost": 500,
+        "description": "$MATERIAL_LUTETIUM_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "salt-crystals",
+        "title": "$MATERIAL_SALT_CRYSTALS_TITLE",
+        "tags": ["asteroid", "exchangeable", "ore"],
+        "hp": 3,
+        "cost": 100,
+        "description": "$MATERIAL_SALT_CRYSTALS_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "asteroid-ice",
+        "title": "$MATERIAL_ASTEROID_ICE_TITLE",
+        "tags": ["asteroid", "exchangeable", "ore"],
+        "hp": 3,
+        "cost": 100,
+        "description": "$MATERIAL_ASTEROID_ICE_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "asteroid-water",
+        "title": "$MATERIAL_ASTEROID_WATER_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable"],
+        "hp": 3,
+        "cost": 2600,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "luteium-jew",
+        "title": "$MATERIAL_LUTETIUM_JEW_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable"],
+        "hp": 3,
+        "cost": 13500,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "zeolit",
+        "title": "$MATERIAL_ZEOLIT_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "mega", "ultra"],
+        "hp": 3,
+        "cost": 5000,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "chlorine",
+        "title": "$MATERIAL_CHLORINE_TITLE",
+        "tags": ["chemical", "chem-material", "chem-ore", "exchangeable", "common", "mega", "ultra"],
+        "hp": 3,
+        "cost": 600,
+        "description": "$MATERIAL_FLASK_HCL_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "copper",
+        "title": "$MATERIAL_COPPER_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common", "mega", "ultra"],
+        "hp": 3,
+        "cost": 200000
+    }, {
+        "name": "iron",
+        "title": "$MATERIAL_IRON_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common", "mega", "ultra"],
+        "hp": 3,
+        "cost": 3
+    }, {
+        "name": "uranium",
+        "title": "$MATERIAL_URANIUM_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "ultra", "mega"],
+        "hp": 3,
+        "cost": 22,
+        "unlockSegment": 84
+    }, {
+        "name": "amber",
+        "title": "$MATERIAL_AMBER_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common", "mega", "ultra"],
+        "hp": 4,
+        "cost": 4
+    }, {
+        "name": "aluminium",
+        "title": "$MATERIAL_ALUMINIUM_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common"],
+        "hp": 4,
+        "cost": 5,
+        "unlockSegment": 24
+    }, {
+        "name": "silver",
+        "title": "$MATERIAL_SILVER_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common"],
+        "hp": 4,
+        "cost": 7,
+        "unlockSegment": 24
+    }, {
+        "name": "gold",
+        "title": "$MATERIAL_GOLD_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common"],
+        "hp": 4,
+        "cost": 10,
+        "unlockSegment": 12
+    }, {
+        "name": "emerald",
+        "title": "$MATERIAL_EMERALD_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 5,
+        "cost": 12,
+        "unlockSegment": 48
+    }, {
+        "name": "platinum",
+        "title": "$MATERIAL_PLATINUM_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "common", "mega"],
+        "hp": 5,
+        "cost": 13,
+        "unlockSegment": 12
+    }, {
+        "name": "topaz",
+        "title": "$MATERIAL_TOPAZ_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 6,
+        "cost": 14,
+        "unlockSegment": 60
+    }, {
+        "name": "diamond",
+        "title": "$MATERIAL_DIAMOND_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 6,
+        "cost": 18,
+        "unlockSegment": 60
+    }, {
+        "name": "sapphire",
+        "title": "$MATERIAL_SAPPHIRE_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 5,
+        "cost": 16,
+        "unlockSegment": 72
+    }, {
+        "name": "ruby",
+        "title": "$MATERIAL_RUBY_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 6,
+        "cost": 15,
+        "unlockSegment": 60
+    }, {
+        "name": "alexandrite",
+        "title": "$MATERIAL_ALEXANDRITE_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 7,
+        "cost": 19,
+        "unlockSegment": 84
+    }, {
+        "name": "titanium-ore",
+        "title": "$MATERIAL_TITANIUM_ORE_TITLE",
+        "tags": ["metal", "exchangeable", "ore", "ultra"],
+        "hp": 7,
+        "cost": 19,
+        "unlockSegment": 84
+    }, {
+        "name": "amethyst",
+        "title": "$MATERIAL_AMETHYST_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 6,
+        "cost": 18,
+        "unlockSegment": 72
+    }, {
+        "name": "obsidian",
+        "title": "$MATERIAL_OBSIDIAN_TITLE",
+        "tags": ["mineral", "exchangeable", "ore", "common"],
+        "hp": 6,
+        "cost": 20,
+        "unlockSegment": 96
+    }, {
+        "name": "pumpkin",
+        "title": "$MATERIAL_PUMPKIN_TITLE",
+        "tags": ["mineral", "exchangeable", "ore"],
+        "hp": 6,
+        "cost": 50,
+        "description": "$MATERIAL_PUMPKIN_DESC"
+    }, {
+        "name": "pumpkin-carved",
+        "title": "$MATERIAL_CARVED_PUMPKIN_TITLE",
+        "tags": ["craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 1100,
+        "description": "$MATERIAL_CARVED_PUMPKIN_DESC"
+    }, {
+        "name": "pumpkin-defective",
+        "title": "$MATERIAL_DEF_PUMPKIN_TITLE",
+        "tags": ["craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 100,
+        "description": "$MATERIAL_DEF_PUMPKIN_DESC"
+    }, {
+        "name": "pumpkin-dagger",
+        "title": "$MATERIAL_CARVING_KNIFE_TITLE",
+        "tags": ["craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 300,
+        "description": "$MATERIAL_CARVING_KNIFE_DESC"
+    }, {
+        "name": "fire-spark",
+        "title": "$MATERIAL_FIRE_SPARK_TITLE",
+        "tags": ["unsellable", "ore"],
+        "hp": 6,
+        "cost": 300,
+        "description": "$MATERIAL_FIRE_SPARK_DESC"
+    }, {
+        "name": "fire-pumpkin-torch",
+        "title": "$MATERIAL_FIRE_PUMPKIN_TORCH_TITLE",
+        "tags": ["craftable", "producable", "unsellable"],
+        "hp": 6,
+        "cost": 300,
+        "description": "$MATERIAL_FIRE_PUMPKIN_TORCH_DESC"
+    }, {
+        "name": "amulete",
+        "title": "$MATERIAL_AMULETE_TITLE",
+        "tags": ["jew", "craftable", "polished-jew"],
+        "cost": 9500,
+        "description": "$MATERIAL_AMULETE_DESC"
+    }, {
+        "name": "mega-pumpkin",
+        "title": "$MATERIAL_MEGA_PUMPKIN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_MEGA_PUMPKIN_DESC"
+    }, {
+        "name": "candy-red",
+        "title": "$MATERIAL_CANDY_RED_TITLE",
+        "tags": ["mineral", "ore"],
+        "hp": 6,
+        "cost": 50,
+        "description": "$MATERIAL_CANDY_RED_DESC"
+    }, {
+        "name": "candy-yellow",
+        "title": "$MATERIAL_CANDY_YELLOW_TITLE",
+        "tags": ["mineral", "ore"],
+        "hp": 6,
+        "cost": 50,
+        "description": "$MATERIAL_CANDY_YELLOW_DESC"
+    }, {
+        "name": "candy-green",
+        "title": "$MATERIAL_CANDY_GREEN_TITLE",
+        "tags": ["mineral", "ore"],
+        "hp": 6,
+        "cost": 50,
+        "description": "$MATERIAL_CANDY_GREEN_DESC"
+    }, {
+        "name": "gift-crimson",
+        "title": "$MATERIAL_GIFT_CRIMSON_TITLE",
+        "tags": ["craftable", "producable", "christmas-gift", "unkeepable"],
+        "hp": 6,
+        "cost": 1800,
+        "description": "$MATERIAL_GIFT_CRIMSON_DESC"
+    }, {
+        "name": "gift-yellow",
+        "title": "$MATERIAL_GIFT_YELLOW_TITLE",
+        "tags": ["craftable", "producable", "christmas-gift", "unkeepable"],
+        "hp": 6,
+        "cost": 1800,
+        "description": "$MATERIAL_GIFT_CRIMSON_DESC"
+    }, {
+        "name": "gift-purple",
+        "title": "$MATERIAL_GIFT_PURPLE_TITLE",
+        "tags": ["craftable", "producable", "christmas-gift", "unkeepable"],
+        "hp": 6,
+        "cost": 1800,
+        "description": "$MATERIAL_GIFT_CRIMSON_DESC"
+    }, {
+        "name": "sock",
+        "title": "$MATERIAL_SOCK_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 600,
+        "description": "$MATERIAL_SOCK_DESC"
+    }, {
+        "name": "candy-sock",
+        "title": "$MATERIAL_CANDY_SOCK_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 3000,
+        "description": "$MATERIAL_CANDY_SOCK_DESC"
+    }, {
+        "name": "candy-set",
+        "title": "$MATERIAL_CANDY_SET_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "hp": 6,
+        "cost": 350,
+        "description": "$MATERIAL_CANDY_SET_DESC"
+    }, {
+        "name": "magic-box",
+        "title": "$MATERIAL_MAGIC_BOX_TITLE",
+        "tags": ["craft", "craftable"],
+        "cost": 1,
+        "description": "$MATERIAL_MAGIC_BOX_DESC"
+    }, {
+        "name": "snow-globe",
+        "title": "$MATERIAL_SNOW_GLOBE_TITLE",
+        "tags": ["jew", "craftable", "polished-jew"],
+        "cost": 8500,
+        "description": "$MATERIAL_AMBER_JEW_DESC"
+    }, {
+        "name": "tree-toy",
+        "title": "$MATERIAL_TREE_TOY_TITLE",
+        "tags": ["jew", "craftable", "polished-jew"],
+        "cost": 11000,
+        "description": "$MATERIAL_AMBER_JEW_DESC"
+    }, {
+        "name": "zip-drive",
+        "title": "$MATERIAL_ZIPDRIVE_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 2200,
+        "description": "$MATERIAL_ZIPDRIVE_DESC"
+    }, {
+        "name": "helium3",
+        "title": "$MATERIAL_HELIUM3_TITLE",
+        "tags": ["mineral", "exchangeable", "ore"],
+        "hp": 6,
+        "cost": 400,
+        "unlockSegment": 108
+    }, {
+        "name": "red-beryl",
+        "title": "$MATERIAL_RED_BERYL_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 8,
+        "cost": 20
+    }, {
+        "name": "oil-barell",
+        "title": "$MATERIAL_OIL_TITLE",
+        "tags": ["mineral", "chem-material", "exchangeable", "common", "mega"],
+        "hp": 8,
+        "cost": 21,
+        "unlockSegment": 72
+    }, {
+        "name": "rhodium",
+        "title": "$MATERIAL_RHODIUM_TITLE",
+        "tags": ["metal", "exchangeable"],
+        "hp": 7,
+        "cost": 18
+    }, {
+        "name": "fire-opal",
+        "title": "$MATERIAL_FIRE_OPAL_TITLE",
+        "tags": ["mineral", "exchangeable"],
+        "hp": 7,
+        "cost": 19
+    }, {
+        "name": "serendibite",
+        "title": "$MATERIAL_SERENDIBITE_TITLE",
+        "tags": ["mineral", "exchangeable"],
+        "hp": 8,
+        "cost": 52
+    }, {
+        "name": "red-diamond",
+        "title": "$MATERIAL_RED_DIAMOND_TITLE",
+        "tags": ["mineral", "exchangeable"],
+        "hp": 25,
+        "cost": 80
+    }, {
+        "name": "arcanite",
+        "title": "$MATERIAL_ARCANITE_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 25,
+        "cost": 80
+    }, {
+        "name": "anaptanium",
+        "title": "$MATERIAL_ANAPTANIUM_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 20,
+        "cost": 52
+    }, {
+        "name": "mithril",
+        "title": "$MATERIAL_MITHRIL_TITLE",
+        "tags": ["metal", "exchangeable"],
+        "hp": 5,
+        "cost": 14
+    }, {
+        "name": "moonstone",
+        "title": "$MATERIAL_MOONSTONE_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 25,
+        "cost": 80
+    }, {
+        "name": "thorium",
+        "title": "$MATERIAL_THORIUM_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 25,
+        "cost": 80
+    }, {
+        "name": "adamantite",
+        "title": "$MATERIAL_ADAMANTITE_TITLE",
+        "tags": ["metal", "exchangeable"],
+        "hp": 20,
+        "cost": 52
+    }, {
+        "name": "saronite",
+        "title": "$MATERIAL_SARONITE_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 25,
+        "cost": 80
+    }, {
+        "name": "elementium",
+        "title": "$MATERIAL_ELEMENTIUM_TITLE",
+        "tags": ["metal", "exchangeable"],
+        "hp": 20,
+        "cost": 70
+    }, {
+        "name": "trillium",
+        "title": "$MATERIAL_TRILLIUM_TITLE",
+        "tags": ["mineral", "rare"],
+        "hp": 20,
+        "cost": 60
+    }, {
+        "name": "copper-bar",
+        "title": "$MATERIAL_COPPER_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 25,
+        "description": "$MATERIAL_COPPER_BAR_DESC"
+    }, {
+        "name": "magnetite-bar",
+        "title": "$MATERIAL_MAGNETITE_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 137000,
+        "description": "$MATERIAL_COPPER_BAR_DESC",
+        "unlockSegment": 109
+    }, {
+        "name": "luteium-bar",
+        "title": "$MATERIAL_LUTETIUM_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable"],
+        "cost": 68000,
+        "description": "$MATERIAL_LUTETIUM_BAR_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "iron-bar",
+        "title": "$MATERIAL_IRON_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 40,
+        "description": "$MATERIAL_COPPER_BAR_DESC"
+    }, {
+        "name": "steel-bar",
+        "title": "$MATERIAL_STEEL_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 150,
+        "description": "$MATERIAL_COPPER_BAR_DESC",
+        "unlockSegment": 37
+    }, {
+        "name": "titanium-bar",
+        "title": "$MATERIAL_TITANIUM_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 3000,
+        "description": "$MATERIAL_COPPER_BAR_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "steel-plate",
+        "title": "$MATERIAL_STEEL_PLATE_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 1800,
+        "description": "$MATERIAL_STEEL_PLATE_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "steel-pipe",
+        "title": "$MATERIAL_STEEL_PIPE_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 4300,
+        "description": "$MATERIAL_STEEL_PLATE_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "diamond-cutter",
+        "title": "$MATERIAL_DIAMOND_CUTTER_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 5000,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "motherboard",
+        "title": "$MATERIAL_MOTHERBOARD_TITLE",
+        "tags": ["craftable", "producable", "exchangeable", "ultra"],
+        "cost": 17000,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "silver-bar",
+        "title": "$MATERIAL_SILVER_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 200,
+        "description": "$MATERIAL_COPPER_BAR_DESC",
+        "unlockSegment": 37
+    }, {
+        "name": "copper-wire",
+        "title": "$MATERIAL_COPPER_WIRE_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 15,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "copper-nail",
+        "title": "$MATERIAL_COPPER_NAIL_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 7,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "graphite-rod",
+        "title": "$MATERIAL_GRAPHITE_ROD_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 15,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "sattelite-dish",
+        "title": "$MATERIAL_SATTELITE_DISH_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "cool-laser",
+        "title": "$MATERIAL_COOL_LASER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COOL_LASER_DESC"
+    }, {
+        "name": "oxygen-concentrator",
+        "title": "$MATERIAL_OXYGEN_CONCENTRATOR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_OXYGEN_CONCENTRATOR_DESC"
+    }, {
+        "name": "gas-storage",
+        "title": "$MATERIAL_GAS_STORAGE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_GAS_STORAGE_DESC"
+    }, {
+        "name": "excimer-laser",
+        "title": "$MATERIAL_EXCIMER_LASER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_EXCIMER_LASER_DESC"
+    }, {
+        "name": "chemical-plant",
+        "title": "$QUEST_CRAFT_CHEMICAL_PLANT_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_CHEMICAL_PLANT_DESC"
+    }, {
+        "name": "pesticide-nebulizer",
+        "title": "$MATERIAL_PESTICIDE_NEBULIZER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PESTICIDE_NEBULIZER_DESC"
+    }, {
+        "name": "cloning-device",
+        "title": "$MATERIAL_CLONING_DEVICE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_CLONING_DEVICE_DESC"
+    }, {
+        "name": "stone-of-wisdom",
+        "title": "$MATERIAL_STONE_OF_WISDOM_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-wisdom-splinters",
+        "title": "$MATERIAL_STONE_OF_WISDOM_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-strength",
+        "title": "$MATERIAL_STONE_OF_STRENGTH_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-strength-splinters",
+        "title": "$MATERIAL_STONE_OF_STRENGTH_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_STRENGTH_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-kindness",
+        "title": "$MATERIAL_STONE_OF_KINDNESS_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-kindness-splinters",
+        "title": "$MATERIAL_STONE_OF_KINDNESS_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_KINDNESS_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-mistakes",
+        "title": "$MATERIAL_STONE_OF_MISTAKES_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-mistakes-splinters",
+        "title": "$MATERIAL_STONE_OF_MISTAKES_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_MISTAKES_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-shine",
+        "title": "$MATERIAL_STONE_OF_SHINE_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-shine-splinters",
+        "title": "$MATERIAL_STONE_OF_SHINE_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_SHINE_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-empathy",
+        "title": "$MATERIAL_STONE_OF_EMPATHY_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-empathy-splinters",
+        "title": "$MATERIAL_STONE_OF_EMPATHY_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_EMPATHY_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-entropy",
+        "title": "$MATERIAL_STONE_OF_ENTROPY_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-entropy-splinters",
+        "title": "$MATERIAL_STONE_OF_ENTROPY_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_ENTROPY_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-radiation",
+        "title": "$MATERIAL_STONE_OF_RADIATION_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-radiation-splinters",
+        "title": "$MATERIAL_STONE_OF_RADIATION_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_RADIATION_SPLINTERS_DESC"
+    }, {
+        "name": "stone-of-eternity",
+        "title": "$MATERIAL_STONE_OF_ETERNITY_TITLE",
+        "tags": ["craft", "craftable", "unsellable", "real", "showable"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_WISDOM_DESC"
+    }, {
+        "name": "stone-of-eternity-splinters",
+        "title": "$MATERIAL_STONE_OF_ETERNITY_SPLINTERS_TITLE",
+        "tags": ["unsellable", "ore"],
+        "cost": 1,
+        "description": "$MATERIAL_STONE_OF_ETERNITY_SPLINTERS_DESC"
+    }, {
+        "name": "battery",
+        "title": "$MATERIAL_BATTERY_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 200,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "circuits",
+        "title": "$MATERIAL_CIRCUITS_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 2070,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "lamp",
+        "title": "$MATERIAL_LAMP_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 760,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "zap-thing",
+        "title": "$MATERIAL_ZAP_THING_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 4,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 24
+    }, {
+        "name": "emerald-zap-thing",
+        "title": "$MATERIAL_EMERALD_ZAP_THING_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 400,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 53
+    }, {
+        "name": "aluminium-bottle",
+        "title": "$MATERIAL_ALUMINIUM_BOTTLE_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 55,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 24
+    }, {
+        "name": "aluminium-bottle-full",
+        "title": "$MATERIAL_ALUMINIUM_BOTTLE_FULL_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 125,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 24
+    }, {
+        "name": "copper-amber-wire",
+        "title": "$MATERIAL_COPPER_AMBER_WIRE_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 750,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 24
+    }, {
+        "name": "aluminium-tank",
+        "title": "$MATERIAL_ALUMINIUM_TANK_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 450,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 37
+    }, {
+        "name": "mirror",
+        "title": "$MATERIAL_MIRROR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 450,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 37
+    }, {
+        "name": "mirror-laser",
+        "title": "$MATERIAL_MIRROR_LASER_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega"],
+        "cost": 5400,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 37
+    }, {
+        "name": "gas-cylinder",
+        "title": "$MATERIAL_GAS_CYLINDER_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 30000,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "accumulator",
+        "title": "$MATERIAL_ACCUMULATOR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 9000,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 72
+    }, {
+        "name": "solar-panel",
+        "title": "$MATERIAL_SOLAR_PANEL_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 69000,
+        "description": "$MATERIAL_COPPER_WIRE_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "bomb",
+        "title": "$MATERIAL_BOMB_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 55500,
+        "description": "$MATERIAL_BOMB_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "compressor",
+        "title": "$MATERIAL_COMPRESSOR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 44000,
+        "description": "$MATERIAL_COMPRESSOR_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "optical-fiber",
+        "title": "$MATERIAL_OPTIC_FIBER_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 10500,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "oxygen-cylinder",
+        "title": "$MATERIAL_OXYGEN_CYLINDER_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 173000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "corona-discharge-tube",
+        "title": "$QUEST_CRAFT_CORONA_DISCHARGE_TUBE_NAME",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 49000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "nitrogenium-tank",
+        "title": "$QUEST_CRAFT_LIQUID_NITROGEN_NAME",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 110000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "primordial-soup",
+        "title": "$MATERIAL_PRIMORDIAL_SOUP_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 40000,
+        "description": "$MATERIAL_PRIMORDIAL_SOUP_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "magnet",
+        "title": "$MATERIAL_MAGNET_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 300000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 108
+    }, {
+        "name": "electrical-engine",
+        "title": "$MATERIAL_ELECTRICAL_ENGINE_TITLE_1",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 745000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 108
+    }, {
+        "name": "lcd-monitor",
+        "title": "$MATERIAL_LCD_MONITOR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 90000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 108
+    }, {
+        "name": "cool-chipset",
+        "title": "$MATERIAL_COOL_CHIPSET_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 40000,
+        "description": "$MATERIAL_COOL_CHIPSET_DESC",
+        "unlockSegment": 119
+    }, {
+        "name": "dry-ice",
+        "title": "$MATERIAL_DRY_ICE_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 25000,
+        "description": "$MATERIAL_OPTIC_FIBER_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "titanium-gear",
+        "title": "$MATERIAL_TITANIUM_GEAR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 18500,
+        "description": "$MATERIAL_TITANIUM_GEAR_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "aluminium-bar",
+        "title": "$MATERIAL_ALUMINIUM_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega", "ultra"],
+        "cost": 50,
+        "description": "$MATERIAL_COPPER_BAR_DESC",
+        "unlockSegment": 25
+    }, {
+        "name": "flask",
+        "title": "$MATERIAL_FLASK_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "mega", "ultra"],
+        "cost": 800,
+        "description": "$MATERIAL_STEEL_PLATE_DESC",
+        "unlockSegment": 13
+    }, {
+        "name": "gold-bar",
+        "title": "$MATERIAL_GOLD_BAR_TITLE",
+        "tags": ["alloy", "craftable", "producable", "exchangeable", "common", "mega"],
+        "hp": 4,
+        "cost": 250,
+        "unlockSegment": 49
+    }, {
+        "name": "amber-jew",
+        "title": "$MATERIAL_AMBER_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common"],
+        "cost": 70,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 50
+    }, {
+        "name": "emerald-jew",
+        "title": "$MATERIAL_EMERALD_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common"],
+        "cost": 160,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 50
+    }, {
+        "name": "diamond-jew",
+        "title": "$MATERIAL_DIAMOND_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega", "ultra"],
+        "cost": 300,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "ruby-jew",
+        "title": "$MATERIAL_RUBY_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 250,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "topaz-jew",
+        "title": "$MATERIAL_TOPAZ_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 200,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "sapphire-jew",
+        "title": "$MATERIAL_SAPPHIRE_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 230,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "sapphire-crystal-glass",
+        "title": "$MATERIAL_SAPPHIRE_CRYSTAL_GLASS_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 5000,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "amethyst-jew",
+        "title": "$MATERIAL_AMETHYST_JEW_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 250,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 73
+    }, {
+        "name": "alexandrite-jew",
+        "title": "$MATERIAL_ALEXANDRITE_JEW_NAME",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 270,
+        "description": "$MATERIAL_ALEXANDRITE_JEW_DESC",
+        "unlockSegment": 85
+    }, {
+        "name": "obsidian-jew",
+        "title": "$MATERIAL_OBSIDIAN_JEW_NAME",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "common", "mega"],
+        "cost": 280,
+        "description": "$MATERIAL_OBSIDIAN_JEW_DESC",
+        "unlockSegment": 96
+    }, {
+        "name": "egypt-gold-emerald-ring",
+        "title": "$MATERIAL_EGYPT_GOLD_EMERALD_RING_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "mega", "ultra"],
+        "cost": 450,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 53,
+        "tradeCoeff": 0.986
+    }, {
+        "name": "mayan-calendar",
+        "title": "$MATERIAL_MAYA_CALENDAR_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "ultra"],
+        "cost": 6000,
+        "description": "$MATERIAL_MAYA_CALENDAR_DESC",
+        "unlockSegment": 53,
+        "tradeCoeff": 0.569
+    }, {
+        "name": "japanese-brush",
+        "title": "$MATERIAL_JAPANESE_BRUSH_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "ultra"],
+        "cost": 14000,
+        "description": "$MATERIAL_JAPANESE_BRUSH_DESC",
+        "unlockSegment": 53,
+        "tradeCoeff": 1.2576
+    }, {
+        "name": "obsidian-knife",
+        "title": "$MATERIAL_OBSIDIAN_KNIFE_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "ultra"],
+        "cost": 32000,
+        "description": "$MATERIAL_OBSIDIAN_KNIFE_DESC",
+        "unlockSegment": 53,
+        "tradeCoeff": 1.1
+    }, {
+        "name": "egypt-silver-amber-pendant",
+        "title": "$MATERIAL_EGYPT_SILVER_AMBER_PENDANT_TITLE",
+        "tags": ["jew", "craftable", "polished-jew", "exchangeable", "mega", "ultra"],
+        "cost": 280,
+        "description": "$MATERIAL_AMBER_JEW_DESC",
+        "unlockSegment": 53,
+        "tradeCoeff": 0.569
+    }, {
+        "name": "explorable",
+        "title": "$MATERIAL_EXPLORABLE_TITLE",
+        "tags": ["explorable", "exchangeable"],
+        "hp": 3,
+        "cost": 6
+    }, {
+        "name": "pc-part-3",
+        "title": "$MATERIAL_PC_PART_3_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PC_PART_3_DESC"
+    }, {
+        "name": "dna-fauna-capsule",
+        "title": "$MATERIAL_DNA_FAUNA_CAPSULE_TITLE",
+        "tags": ["unsellable", "real"],
+        "cost": 100,
+        "description": "$MATERIAL_DNA_FLORA_CAPSULE_DESC"
+    }, {
+        "name": "dna-flora-capsule",
+        "title": "$MATERIAL_DNA_FLORA_CAPSULE_TITLE",
+        "tags": ["asteroid", "exchangeable", "ore"],
+        "cost": 100,
+        "description": "$MATERIAL_DNA_FLORA_CAPSULE_DESC"
+    }, {
+        "name": "pc-part-2",
+        "title": "$MATERIAL_PC_PART_2_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "pc-part-1",
+        "title": "$MATERIAL_PC_PART_1_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "pc-part-4",
+        "title": "$MATERIAL_PC_PART_4_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "tesla-coil",
+        "title": "$MATERIAL_TESLA_COIL_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "aircraft-body",
+        "title": "$MATERIAL_AIRCRAFT_BODY_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "aircraft-engine",
+        "title": "$MATERIAL_AIRCRAFT_ENGINE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "aircraft-propellers",
+        "title": "$MATERIAL_AIRCRAFT_PROPELLERS_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "aircraft-antenna",
+        "title": "$MATERIAL_AIRCRAFT_ANTENNA_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal",
+        "title": "$MATERIAL_PORTAL_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "tech-inducer",
+        "title": "$MATERIAL_TECH_INDUCER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_TECH_INDUCER_DESC"
+    }, {
+        "name": "solid-propellant",
+        "title": "$MATERIAL_SOLID_PROPELLANT_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable", "ultra"],
+        "cost": 27000,
+        "description": "$MATERIAL_STEEL_PLATE_DESC",
+        "unlockSegment": 61
+    }, {
+        "name": "rocket-one",
+        "title": "$MATERIAL_ROCKET_1_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 100,
+        "description": "$MATERIAL_ROCKET_1_DESC"
+    }, {
+        "name": "rocket-two",
+        "title": "$MATERIAL_ROCKET_2_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 100,
+        "description": "$MATERIAL_ROCKET_2_DESC"
+    }, {
+        "name": "rocket-three",
+        "title": "$MATERIAL_ROCKET_3_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 100,
+        "description": "$MATERIAL_ROCKET_3_DESC"
+    }, {
+        "name": "rocket-four",
+        "title": "$MATERIAL_ROCKET_FOUR_TITLE",
+        "tags": ["craft", "craftable", "producable", "exchangeable"],
+        "cost": 100,
+        "description": "$MATERIAL_ROCKET_4_DESC"
+    }, {
+        "name": "christmas-book",
+        "title": "$MATERIAL_CHRISTMAS_BOOK_TITLE",
+        "tags": ["craft", "craftable"],
+        "cost": 1,
+        "description": "$MATERIAL_CHRISTMAS_BOOK_DESC"
+    }, {
+        "name": "rocket-base-one",
+        "title": "$QUEST_CRAFTING_ROCKET_BASE_ONE_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_BASE_ONE_DESC"
+    }, {
+        "name": "rocket-engine-one",
+        "title": "$MATERIAL_ROCKET_ENGINE_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGINE_ONE_DESC"
+    }, {
+        "name": "rocket-engine-two",
+        "title": "$MATERIAL_ROCKET_ENGINE_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGINE_TWO_DESC"
+    }, {
+        "name": "rocket-engine-three",
+        "title": "$MATERIAL_ROCKET_ENGINE_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGINE_THREE_DESC"
+    }, {
+        "name": "rocket-aircraft",
+        "title": "$QUEST_CRAFTING_SPACECRAFT_MAIN_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_AIRCRAFT_DESC"
+    }, {
+        "name": "rocket-antena",
+        "title": "$QUEST_ROCKET_ANTENNA_CR_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ANTENA_DESC"
+    }, {
+        "name": "rocket-base-two",
+        "title": "$QUEST_CRAFTING_ROCKET_BASE_TWO_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_BASE_TWO_DESC"
+    }, {
+        "name": "rocket-base-three",
+        "title": "$QUEST_CRAFTING_ROCKET_BASE_THREE_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_BASE_TWO_DESC"
+    }, {
+        "name": "rocket-capsule",
+        "title": "$QUEST_ROCKET_CAPSULE_CR_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_CAPSULE_DESC"
+    }, {
+        "name": "rocket-connector-one",
+        "title": "$QUEST_CRAFTING_ROCKET_CONNECTOR_ONE_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_CONNECTOR_ONE_DESC"
+    }, {
+        "name": "rocket-connector-two",
+        "title": "$QUEST_CRAFTING_ROCKET_TWO_CONNECTOR_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_CONNECTOR_ONE_DESC"
+    }, {
+        "name": "rocket-connector-three",
+        "title": "$QUEST_CRAFTING_ROCKET_CONNECTOR_THREE_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_CONNECTOR_ONE_DESC"
+    }, {
+        "name": "rocket-engin-part-one",
+        "title": "$MATERIAL_ROCKET_ENGIN_PART_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGIN_PART_ONE_DESC"
+    }, {
+        "name": "rocket-engin-part-two",
+        "title": "$MATERIAL_ROCKET_ENGIN_PART_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGIN_PART_TWO_DESC"
+    }, {
+        "name": "rocket-engin-part-three",
+        "title": "$MATERIAL_ROCKET_ENGIN_PART_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGIN_PART_THREE_DESC"
+    }, {
+        "name": "rocket-engin-part-four",
+        "title": "$MATERIAL_ROCKET_ENGIN_PART_FOUR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGIN_PART_FOUR_DESC"
+    }, {
+        "name": "rocket-engine",
+        "title": "$MATERIAL_ROCKET_ENGINE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGINE_TITLE"
+    }, {
+        "name": "rocket-engine-indicator",
+        "title": "$QUEST_ROCKET_THREE_INDICATOR_CR_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_ENGINE_INDICATOR_DESC"
+    }, {
+        "name": "rocket-gyroscope",
+        "title": "$MATERIAL_ROCKET_GYROSCOPE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_GYROSCOPE_DESC"
+    }, {
+        "name": "rocket-wing-one",
+        "title": "$MATERIAL_ROCKET_WING_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_WING_ONE_DESC"
+    }, {
+        "name": "rocket-wing-two",
+        "title": "$MATERIAL_ROCKET_WING_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_ROCKET_WING_ONE_DESC"
+    }, {
+        "name": "toxic-bomb",
+        "title": "$MATERIAL_TOXIC_BOMB_TITLE",
+        "tags": ["chemical", "chem-material", "exchangeable", "ultra"],
+        "cost": 77500,
+        "description": "$MATERIAL_TOXIC_BOMB_DESC",
+        "unlockSegment": 109
+    }, {
+        "name": "honor-badge",
+        "title": "$CD_HONOR_BADGE",
+        "tags": ["badge", "producable", "craftable", "craft"],
+        "cost": 1,
+        "description": "$CD_HONOR_BADGE_DESC"
+    }, {
+        "name": "conductor-one",
+        "title": "$MATERIAL_CONDUCTOR_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "conductor-two",
+        "title": "$MATERIAL_CONDUCTOR_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "conductor-three",
+        "title": "$MATERIAL_CONDUCTOR_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "feeder",
+        "title": "$MATERIAL_FEEDER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "federation-chipset",
+        "title": "$MATERIAL_FEDERATION_CHIPSET_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "radiometer",
+        "title": "$MATERIAL_RADIOMETER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_accumulator-one",
+        "regionName": "accumulator-one",
+        "title": "$MATERIAL_ACCUMULATOR_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_accumulator-two",
+        "regionName": "accumulator-one",
+        "title": "$MATERIAL_ACCUMULATOR_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_accumulator-three",
+        "regionName": "accumulator-one",
+        "title": "$MATERIAL_ACCUMULATOR_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_accumulator-four",
+        "regionName": "accumulator-one",
+        "title": "$MATERIAL_ACCUMULATOR_FOUR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "circuit-breaker",
+        "title": "$MATERIAL_CIRCUIT_BREAKER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "superconductor",
+        "title": "$MATERIAL_SUPERCONDUCTOR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-one",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-two",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-three",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-four",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_FOUR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-five",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_FIVE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-six",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_SIX_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-seven",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_SEVEN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-eight",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_EIGHT_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-nine",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_NINE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_underground-resonator-ten",
+        "regionName": "underground-resonator",
+        "title": "$MATERIAL_UNDERGROUND_RESONATOR_TEN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-one",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-two",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-three",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-four",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_FOUR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-five",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_FIVE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-six",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_SIX_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-seven",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_SEVEN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-eight",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_EIGHT_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-nine",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_NINE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "_cooler-machine-ten",
+        "regionName": "cooler-machine",
+        "title": "$MATERIAL_COOLER_MACHINE_TEN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "receiver-skeleton",
+        "title": "$QUEST_GROUP_RECEIVER_SKELETON_BUILDING_NAME",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "resonators-controller",
+        "title": "$MATERIAL_RESONATORS_CONTROLLER_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "sandship-beacon",
+        "title": "$MATERIAL_SANDSHIP_BEACON_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "blueprint-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "blueprint-recovered",
+        "title": "$MATERIAL_BLUEPRINT_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-part-one-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "portal-part-one-recovered",
+        "title": "$MATERIAL_PORTAL_PART_ONE_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-part-two-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "portal-part-two-recovered",
+        "title": "$MATERIAL_PORTAL_PART_TWO_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-part-three-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "portal-part-three-recovered",
+        "title": "$MATERIAL_PORTAL_PART_THREE_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "_antimatter-excavated-one",
+        "regionName": "antimatter-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "antimatter-recovered-one",
+        "title": "$MATERIAL_ANTIMATTER_RECOVERED_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "_antimatter-excavated-two",
+        "regionName": "antimatter-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "antimatter-recovered-two",
+        "title": "$MATERIAL_ANTIMATTER_RECOVERED_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "_antimatter-excavated-three",
+        "regionName": "antimatter-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "antimatter-recovered-three",
+        "title": "$MATERIAL_ANTIMATTER_RECOVERED_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-working-part-one",
+        "title": "$MATERIAL_PORTAL_WORKING_PART_ONE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal-working-part-two",
+        "title": "$MATERIAL_PORTAL_WORKING_PART_TWO_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal-working-part-three",
+        "title": "$MATERIAL_PORTAL_WORKING_PART_THREE_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "minkowski-pc-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "minkowski-pc-recovered",
+        "title": "$MATERIAL_MINKOWSKI_PC_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-transducer-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "portal-transducer-recovered",
+        "title": "$MATERIAL_PORTAL_TRANSDUCER_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "portal-heart-excavated",
+        "title": "$MATERIAL_BLUEPRINT_EXCAVATED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "portal-heart-recovered",
+        "title": "$MATERIAL_PORTAL_HEART_RECOVERED_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_RESTORED_DESC"
+    }, {
+        "name": "nano-ram",
+        "title": "$MATERIAL_NANO_RAM_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_PORTAL_PART_EXCAVATED_DESC"
+    }, {
+        "name": "radar",
+        "title": "$MATERIAL_RADAR_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal-skeleton",
+        "title": "$MATERIAL_PORTAL_SKELETON_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal-brain",
+        "title": "$MATERIAL_PORTAL_BRAIN_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }, {
+        "name": "portal-for-mankind",
+        "title": "$MATERIAL_PORTAL_FOR_MANKIND_TITLE",
+        "tags": ["craft", "craftable", "real"],
+        "cost": 1,
+        "description": "$MATERIAL_COPPER_WIRE_DESC"
+    }]
+}
