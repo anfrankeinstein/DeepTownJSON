@@ -1703,12 +1703,12 @@
         "configs": {
             "recipes": [{
                 "product": "enriched-uranium",
-                "amount": "1",
+                "amount": "100",
                 "name": "enriched-uranium",
                 "title": "UranumRod",
                 "coin": "100000",
                 "unlockSegment": "84",
-                "time": "120",
+                "time": "1",
                 "ingredients": {
                     "sodium": "10",
                     "uranium": "20"
