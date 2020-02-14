@@ -11,7 +11,9 @@
 + Expedition: All completed within 5 seconds;
 + Spells: 10000X damage for some; reduced cd also;
 + Oil building: ?Tremendous speed when boosting;
++ asteroid-miner: 100X speed when boosting
 
 ---
 # On-dos:  
++ asteroid things?
 + ... ...

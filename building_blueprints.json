@@ -3314,7 +3314,7 @@
                 "title": "[]NAME-stone",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-strength-splinters": "100",
                     "rubber": "3",
@@ -3326,7 +3326,7 @@
                 "title": "[]StoneofKindness",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-kindness-splinters": "100",
                     "rubber": "3",
@@ -3338,7 +3338,7 @@
                 "title": "[]StoneofMistakes",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-mistakes-splinters": "100",
                     "rubber": "3",
@@ -3350,7 +3350,7 @@
                 "title": "[]StoneofShine",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-shine-splinters": "100",
                     "rubber": "3",
@@ -3362,7 +3362,7 @@
                 "title": "[]StoneofEmpathy",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-empathy-splinters": "100",
                     "rubber": "3",
@@ -3374,7 +3374,7 @@
                 "title": "[]StoneofEntropy",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-entropy-splinters": "100",
                     "rubber": "3",
@@ -3386,7 +3386,7 @@
                 "title": "[]StoneofRadiation",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-radiation-splinters": "100",
                     "rubber": "3",
@@ -3398,7 +3398,7 @@
                 "title": "[]StoneofEternity",
                 "coin": "10",
                 "hidden": true,
-                "time": "18000",
+                "time": "1",
                 "ingredients": {
                     "stone-of-eternity-splinters": "100",
                     "rubber": "3",
@@ -4179,7 +4179,7 @@
             "description": "$BLD_BOOST_MINING",
             "duration": 900,
             "price": 5,
-            "multiplier": 2.5
+            "multiplier": 200.5
         },
         "config": {}
     }, {

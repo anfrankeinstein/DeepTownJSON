@@ -1,1 +1,38 @@
-<sets><set id="0"><plasts><plast>g-asteroid-1-plast-one</plast><plast>g-asteroid-1-plast-two</plast><plast>g-asteroid-1-plast-three</plast></plasts><sideWall>g-asteroid-1-side-wall</sideWall><cornerBlock>g-asteroid-corner-block</cornerBlock><bgBump>g-asteroid-1-bg-bump</bgBump><bgLayers>g-asteroid-1-bg-layers</bgLayers><bgStones>g-asteroid-1-bg-stones</bgStones></set><set id="1"><plasts><plast>g-asteroid-2-plast-one</plast><plast>g-asteroid-2-plast-two</plast><plast>g-asteroid-2-plast-three</plast></plasts><sideWall>g-asteroid-2-side-wall</sideWall><cornerBlock>g-asteroid-corner-block</cornerBlock><bgBump>g-asteroid-2-bg-bump</bgBump><bgLayers>g-asteroid-2-bg-layers</bgLayers><bgStones>g-asteroid-2-bg-stones</bgStones></set><set id="2"><plasts><plast>g-asteroid-3-plast-one</plast><plast>g-asteroid-3-plast-two</plast><plast>g-asteroid-3-plast-three</plast></plasts><sideWall>g-asteroid-3-side-wall</sideWall><cornerBlock>g-asteroid-corner-block</cornerBlock><bgBump>g-asteroid-3-bg-bump</bgBump><bgLayers>g-asteroid-3-bg-layers</bgLayers><bgStones>g-asteroid-3-bg-stones</bgStones></set></sets>
+<sets>
+    <set id="0">
+        <plasts>
+            <plast>g-asteroid-1-plast-one</plast>
+            <plast>g-asteroid-1-plast-two</plast>
+            <plast>g-asteroid-1-plast-three</plast>
+        </plasts>
+        <sideWall>g-asteroid-1-side-wall</sideWall>
+        <cornerBlock>g-asteroid-corner-block</cornerBlock>
+        <bgBump>g-asteroid-1-bg-bump</bgBump>
+        <bgLayers>g-asteroid-1-bg-layers</bgLayers>
+        <bgStones>g-asteroid-1-bg-stones</bgStones>
+    </set>
+    <set id="1">
+        <plasts>
+            <plast>g-asteroid-2-plast-one</plast>
+            <plast>g-asteroid-2-plast-two</plast>
+            <plast>g-asteroid-2-plast-three</plast>
+        </plasts>
+        <sideWall>g-asteroid-2-side-wall</sideWall>
+        <cornerBlock>g-asteroid-corner-block</cornerBlock>
+        <bgBump>g-asteroid-2-bg-bump</bgBump>
+        <bgLayers>g-asteroid-2-bg-layers</bgLayers>
+        <bgStones>g-asteroid-2-bg-stones</bgStones>
+    </set>
+    <set id="2">
+        <plasts>
+            <plast>g-asteroid-3-plast-one</plast>
+            <plast>g-asteroid-3-plast-two</plast>
+            <plast>g-asteroid-3-plast-three</plast>
+        </plasts>
+        <sideWall>g-asteroid-3-side-wall</sideWall>
+        <cornerBlock>g-asteroid-corner-block</cornerBlock>
+        <bgBump>g-asteroid-3-bg-bump</bgBump>
+        <bgLayers>g-asteroid-3-bg-layers</bgLayers>
+        <bgStones>g-asteroid-3-bg-stones</bgStones>
+    </set>
+</sets>
