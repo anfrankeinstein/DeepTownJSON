@@ -15,5 +15,7 @@
 
 ---
 # On-dos:  
+# + try solving translation problem
+# + others:
 + asteroid things?
 + ... ...

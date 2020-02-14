@@ -1,1 +1,35 @@
-<languages><language id="en" name="EN"><textRegion>ui-main-lang-english</textRegion></language><language id="de" name="DEU"><textRegion>ui-main-lang-deutsche</textRegion></language><language id="fr" name="FR"><textRegion>ui-main-lang-fra</textRegion></language><language id="es" name="ES"><textRegion>ui-main-lang-esp</textRegion></language><language id="it" name="IT"><textRegion>ui-main-lang-italiano</textRegion></language><language id="pt" name="PT"><textRegion>ui-main-lang-port</textRegion></language><language id="zh_CN" name="简体中文"><textRegion>ui-main-lang-chinese-simplified</textRegion></language><language id="zh_TW" name="繁体中文"><textRegion>ui-main-lang-chinese-traditional</textRegion></language><language id="hy" name="ARM"><textRegion>ui-main-lang-arm</textRegion></language><!--<language id="ja">--><!--<flagRegion>ui-main-flags-japan</flagRegion>--><!--<textRegion>ui-main-lang-japan</textRegion>--><!--</language>--><!--<language id="ch">--><!--<flagRegion>ui-main-flags-china</flagRegion>--><!--<textRegion>ui-main-lang-chinese</textRegion>--><!--</language>--><language id="ru" name="RU"><textRegion>ui-main-lang-russ</textRegion></language><language id="tr" name="TR"><textRegion>ui-main-lang-turkish</textRegion></language></languages>
+<languages>
+    <language id="en" name="EN">
+        <textRegion>ui-main-lang-english</textRegion>
+    </language>
+    <language id="de" name="DEU">
+        <textRegion>ui-main-lang-deutsche</textRegion>
+    </language>
+    <language id="fr" name="FR">
+        <textRegion>ui-main-lang-fra</textRegion>
+    </language>
+    <language id="es" name="ES">
+        <textRegion>ui-main-lang-esp</textRegion>
+    </language>
+    <language id="it" name="IT">
+        <textRegion>ui-main-lang-italiano</textRegion>
+    </language>
+    <language id="pt" name="PT">
+        <textRegion>ui-main-lang-port</textRegion>
+    </language>
+    <language id="zh_CN" name="简体中文">
+        <textRegion>ui-main-lang-chinese-simplified</textRegion>
+    </language>
+    <language id="zh_TW" name="繁体中文">
+        <textRegion>ui-main-lang-chinese-traditional</textRegion>
+    </language>
+    <language id="hy" name="ARM">
+        <textRegion>ui-main-lang-arm</textRegion>
+    </language>    <!--<language id="ja">-->    <!--<flagRegion>ui-main-flags-japan</flagRegion>-->    <!--<textRegion>ui-main-lang-japan</textRegion>-->    <!--</language>-->    <!--<language id="ch">-->    <!--<flagRegion>ui-main-flags-china</flagRegion>-->    <!--<textRegion>ui-main-lang-chinese</textRegion>-->    <!--</language>-->
+    <language id="ru" name="RU">
+        <textRegion>ui-main-lang-russ</textRegion>
+    </language>
+    <language id="tr" name="TR">
+        <textRegion>ui-main-lang-turkish</textRegion>
+    </language>
+</languages>
